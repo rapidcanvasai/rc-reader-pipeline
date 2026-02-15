@@ -1,0 +1,31 @@
+Marketing_Org,Region,Facility_Cd,Facility_Name,Product_Group_code,Product_Group_Name,Sales_Model,Lane,Min_Lead_Time,Max_Lead_Time,Estimate_Min_Date,Estimate_Max_Date,Lead_Time_Units,Effective_Date,Phase_Out,OCFP_(Days),Comment
+ADSD-N,ADSD-N,13D,DECATUR,CP,COMPACTORS,815-11,3,15,18,nan,nan,WK,2025-09-15,N,50,nan
+ADSD-N,ADSD-N,13D,DECATUR,CP,COMPACTORS,825-11,3,16,19,nan,nan,WK,2025-09-15,N,50,nan
+ADSD-N,ADSD-N,13D,DECATUR,CP,COMPACTORS,826-11,3,16,19,nan,nan,WK,2025-09-15,N,50,nan
+ADSD-N,ADSD-N,13D,DECATUR,CP,COMPACTORS,836-11,3,25,28,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,785-08,3,22,26,nan,nan,WK,2025-02-24,N,105,"5783192 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,785-08OEM,3,24,28,nan,nan,WK,2025-04-07,N,105,"6083552 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,789-08,3,22,26,nan,nan,WK,2025-02-24,N,105,"5925220 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,793-08,3,22,26,nan,nan,WK,2025-02-24,N,105,"5769055 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,794AC,3,26,30,nan,nan,WK,2025-08-04,N,105,"5069084 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,796-01AC,3,36,40,nan,nan,WK,2025-06-16,N,105,"5368000 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,797F,3,34,38,nan,nan,WK,2025-11-03,N,90,"4627600 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact the LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LMT,LARGE MINING TRUCKS,798AC,3,26,30,nan,nan,WK,2025-08-04,N,105,"5519000 : The General Availability shown in this report is for a quantity of 1 truck.  For quantities larger than 1, contact LMT Orderboard Manager for fleet availability."
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,824-11,3,17,20,nan,nan,WK,2025-09-15,N,50,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,834-11,3,16,20,nan,nan,WK,2025-09-15,N,60,6188240 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,844-11,3,21,25,nan,nan,WK,2025-09-15,N,60,6321294 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,854-11,3,23,27,nan,nan,WK,2025-09-15,N,60,6343336 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,988-11,3,18,21,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,988-11XE,3,21,24,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,988-11XELRC,3,16,19,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,990-11,3,20,23,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,990-11LRC,3,24,27,nan,nan,WK,2025-09-15,N,60,nan
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,992-12,3,20,24,nan,nan,WK,2025-09-15,N,60,5035800 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,992LRC,3,24,28,nan,nan,WK,2025-09-15,N,60,5035700 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,993-11,3,25,29,nan,nan,WK,2025-09-15,N,60,6293173 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,995-12,3,20,24,nan,nan,WK,2025-02-14,N,60,5965400 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,LWL,LARGE WHEEL LOADERS,995-12LRC,3,24,28,nan,nan,WK,2025-09-15,N,60,5965200 : This model is Order Board Managed. Please reach out to Courtney McGreal or Noel Weer for specific deal availability.
+ADSD-N,ADSD-N,13D,DECATUR,MG,MOTORGRADERS,24,3,30,34,nan,nan,WK,2025-06-09,N,50,"4804163 : The General Availability Shown in this Report is for a quantity of 1 machine.  For quantities larger than 1, contact the MG Orderboard Manager for availability."
+ADSD-N,ADSD-N,13D,DECATUR,QCT,QUARRY & CONSTRUCTION TRUCKS,772-07,3,18,21,nan,nan,WK,2025-10-29,N,55,"6373729 : This product has a very low production volume and high demand volatility, therefore service levels may not extend to all machines contained in a large fleet order."
+ADSD-N,ADSD-N,13D,DECATUR,QCT,QUARRY & CONSTRUCTION TRUCKS,772-07OEM,3,18,21,nan,nan,WK,2025-10-29,N,65,"6373731 : This product has a very low production volume and high demand volatility, therefore service levels may not extend to all machines contained in a large fleet order."
+ADSD-N,ADSD-N,13D,DECATUR,QCT,QUARRY & CONSTRUCTION TRUCKS,773-07,3,18,21,nan,nan,WK,2025-10-29,N,55,"6342319 : This product has a very low production volume and high demand volatility, therefore service levels may not extend to all machines contained in a large fleet order."

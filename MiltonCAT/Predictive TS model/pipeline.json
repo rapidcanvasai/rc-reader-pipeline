@@ -1,0 +1,1198 @@
+{
+  "workspace": "MiltonCAT",
+  "project": "Predictive TS model",
+  "scenario": "Unknown Scenario",
+  "project_id": "469fe89c-b494-48ae-8177-eb4759ebd134",
+  "scenario_id": "f2ad1ab4-e574-4ea8-8270-a0628ad3e72e",
+  "nodes": [
+    {
+      "id": "02dbf308-c7ae-4d78-9ee8-876911ba8295",
+      "stepId": "49e77f32-9d85-4a30-aeab-3ef900d7c358",
+      "deeplinkId": null,
+      "name": "df_future_count_sales",
+      "groupName": null,
+      "displayName": "df_future_count_sales",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 1.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "19c2cdfb-c5c7-4535-8f3d-2322e0d4f377",
+      "stepId": "2adb4fdb-37df-4b88-95c1-77d7e1d5b390",
+      "deeplinkId": null,
+      "name": "Historical-Data",
+      "groupName": null,
+      "displayName": "Historical-Data",
+      "type": "ARTIFACT",
+      "column": -6.0,
+      "row": -0.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "221d779b-5e7a-494d-a491-be5e5a4e67af",
+      "stepId": "e4aaab27-c7c5-466f-844a-1b09eae50d63",
+      "deeplinkId": null,
+      "name": "inventory_gap_with_lead_times",
+      "groupName": null,
+      "displayName": "inventory_gap_with_lead_times",
+      "type": "ENTITY",
+      "column": 8.22222,
+      "row": 9.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "22c1baf2-4bdb-4194-98a6-9a2076920e2d",
+      "stepId": "d8747837-d4c6-4c57-b012-bb57c8e79551",
+      "deeplinkId": null,
+      "name": "ProfitabilityExtract",
+      "groupName": null,
+      "displayName": "ProfitabilityExtract",
+      "type": "ENTITY",
+      "column": -7.77778,
+      "row": -0.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "4018d490-29e1-4ce0-9571-39fb55f488ec",
+        "name": "S3 Bucket",
+        "type": "S3_STORAGE",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2b92026c-00ff-443f-b22d-8180de60fe9b",
+      "stepId": "24475625-44f8-4408-8c76-5b8d98ca3351",
+      "deeplinkId": null,
+      "name": "Inventory",
+      "groupName": null,
+      "displayName": "Inventory",
+      "type": "ENTITY",
+      "column": 4.55556,
+      "row": 6.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2b9eba3f-40df-4f1b-97dd-a644a2726511",
+      "stepId": "310812ff-36d2-48fb-bf4e-6df693238c86",
+      "deeplinkId": "20861d7e-1b59-46f5-8347-f45015945d35",
+      "name": "forecast-data-api",
+      "groupName": null,
+      "displayName": "forecast-data-api",
+      "type": "MODEL",
+      "column": 4.55556,
+      "row": 4.6,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "4be0904f-7873-4c85-939b-d3a92ae1ab45",
+      "stepId": "26442207-dcdc-4f26-9951-d2c6d24a579e",
+      "deeplinkId": null,
+      "name": "group_metrics_with_coverage",
+      "groupName": null,
+      "displayName": "group_metrics_with_coverage",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": -1.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "508be512-e1d7-4d3b-8c0e-fafb9de782a4",
+      "stepId": "a87270ac-5cec-4283-9505-6d18ec398bf9",
+      "deeplinkId": "b615cb12-f5e0-4dff-adac-92046e8b8f6c",
+      "name": "inventory-analysis-api",
+      "groupName": null,
+      "displayName": "inventory-analysis-api",
+      "type": "MODEL",
+      "column": 6.55556,
+      "row": 6.4,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "632f72bb-1e62-468c-96b5-2857ab9a6c1b",
+      "stepId": "68a95514-792a-4a02-ae60-aa53168febbe",
+      "deeplinkId": null,
+      "name": "hierarchy_v3",
+      "groupName": null,
+      "displayName": "hierarchy_v3",
+      "type": "ENTITY",
+      "column": 4.11111,
+      "row": -3.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "66fbc10f-8de6-405c-9e7f-f8320bfe3a7a",
+      "stepId": "df005d3c-440a-4002-85ab-22366854d049",
+      "deeplinkId": null,
+      "name": "Lead Times",
+      "groupName": null,
+      "displayName": "Lead Times",
+      "type": "ENTITY",
+      "column": 6.55556,
+      "row": 9.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "69281a80-3f54-4bbf-becc-efdaffd6b9b2",
+      "stepId": "afc2d5e2-c2df-4a3c-b273-6c98689904d9",
+      "deeplinkId": null,
+      "name": "df_gap",
+      "groupName": null,
+      "displayName": "df_gap",
+      "type": "ENTITY",
+      "column": 6.55556,
+      "row": 8.4,
+      "viewData": null,
+      "status": "EMPTY",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "6b046b23-d377-401b-b3f0-2b7e1fa54983",
+      "stepId": "8a7c0912-3e82-46f1-bf9a-a61a4aec765a",
+      "deeplinkId": null,
+      "name": "crm_data",
+      "groupName": null,
+      "displayName": "crm_data",
+      "type": "ENTITY",
+      "column": 3.0,
+      "row": 3.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "75f1b9e0-51f4-47ef-8080-bda828f339ac",
+      "stepId": "db2e2d23-652a-4a17-af5a-e74ecce836f8",
+      "deeplinkId": null,
+      "name": "df_results_count_sales",
+      "groupName": null,
+      "displayName": "df_results_count_sales",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": -0.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "77929da6-1357-4724-a0e4-7846f13725e6",
+      "stepId": "6f859025-c698-4fbf-9d06-3f708b0651c3",
+      "deeplinkId": null,
+      "name": "Consolidated-Historical-Data",
+      "groupName": null,
+      "displayName": "Consolidated-Historical-Data",
+      "type": "ARTIFACT",
+      "column": -3.66667,
+      "row": 0.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "89800ad2-01c0-416c-b3ee-59f1c1d3a124",
+      "stepId": "8a47874f-8565-4eea-a73b-5a3e11860ac9",
+      "deeplinkId": null,
+      "name": "sku_metrics_with_hierarchy",
+      "groupName": null,
+      "displayName": "sku_metrics_with_hierarchy",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": -3.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "99d77757-75c0-4325-b32e-ab6265270e21",
+      "stepId": "9011f6e0-3347-47e4-8659-0208d2a7d16a",
+      "deeplinkId": null,
+      "name": "outputDataset",
+      "groupName": null,
+      "displayName": "outputDataset",
+      "type": "ENTITY",
+      "column": 3.88889,
+      "row": 1.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "9c9caafb-8436-49af-832f-3cc3a4c6d011",
+      "stepId": "39e8971d-6fd4-40a8-b9a2-f37bc425c1d6",
+      "deeplinkId": null,
+      "name": "Historical Data",
+      "groupName": null,
+      "displayName": "Historical Data",
+      "type": "ARTIFACT",
+      "column": -6.0,
+      "row": 0.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "9ec3ef50-50e4-4568-8d02-8b903298b7ea",
+      "stepId": "6a46570f-2b02-4cf1-91e9-b58c95bd59ad",
+      "deeplinkId": null,
+      "name": "subgroup_metrics_with_coverage",
+      "groupName": null,
+      "displayName": "subgroup_metrics_with_coverage",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": -2.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "ae720f8c-e1fe-40e7-9d3d-1d10f62f88d6",
+      "stepId": "cb08baff-7669-4899-a13d-cc9c222c34c8",
+      "deeplinkId": null,
+      "name": "df_sku_dictionary",
+      "groupName": null,
+      "displayName": "df_sku_dictionary",
+      "type": "ENTITY",
+      "column": -1.66667,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "c552b4da-1bc6-412f-aaf2-b7d47183d376",
+      "stepId": "b27959c5-aa2c-460d-8da7-ea974ef63499",
+      "deeplinkId": null,
+      "name": "equipment_metrics_summary",
+      "groupName": null,
+      "displayName": "equipment_metrics_summary",
+      "type": "ENTITY",
+      "column": 4.11111,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "dbfd986b-7aaf-4431-a06d-2e735a5d170d",
+      "stepId": "c728377c-5008-4f86-b4c6-180c474f69a2",
+      "deeplinkId": null,
+      "name": "NewInventoryExtract",
+      "groupName": null,
+      "displayName": "NewInventoryExtract",
+      "type": "ENTITY",
+      "column": 3.0,
+      "row": 6.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "4018d490-29e1-4ce0-9571-39fb55f488ec",
+        "name": "S3 Bucket",
+        "type": "S3_STORAGE",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "e03b74e3-0136-4ba8-8f86-639777b98c2c",
+      "stepId": "b8f95f6a-ecf7-48d9-9667-f1f157e27a9b",
+      "deeplinkId": null,
+      "name": "hierarchy_v4",
+      "groupName": null,
+      "displayName": "hierarchy_v4",
+      "type": "ENTITY",
+      "column": 4.11111,
+      "row": -4.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "e3690861-da2b-46ba-9a41-839947dc36f3",
+      "stepId": "53388931-de34-43a5-b759-81e9cde1808f",
+      "deeplinkId": null,
+      "name": "df_count_machine_sales",
+      "groupName": null,
+      "displayName": "df_count_machine_sales",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 2.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "eb208353-ae66-4b39-9a21-aa94b2f779e1",
+      "stepId": "c4f1436d-3533-46e4-b18c-496758020fd3",
+      "deeplinkId": null,
+      "name": "clean",
+      "groupName": null,
+      "displayName": "clean",
+      "type": "ENTITY",
+      "column": 0.111111,
+      "row": 0.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "fc3d7976-ff23-4af3-8137-bfc2411aca6f",
+      "stepId": "872ec052-f10d-4c80-b958-ccc6c35521af",
+      "deeplinkId": null,
+      "name": "Machine Sales New",
+      "groupName": null,
+      "displayName": "Machine Sales New",
+      "type": "ENTITY",
+      "column": -1.66667,
+      "row": 0.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "080d4256-ccc5-455f-a911-5f5f301d064b",
+      "stepId": "465388ee-7704-4f06-8e1a-eaeeaf11e919",
+      "deeplinkId": null,
+      "name": "Draft VP_New Machine Sales Open Opportunities Recipe 2",
+      "groupName": null,
+      "displayName": "SKU Sales Quantity Model",
+      "type": "DFSGROUP",
+      "column": 1.0,
+      "row": 0.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "b5fd5876-ad9d-4e66-b459-7e0943ea408e",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "1192a654-eca2-4cc5-908e-9352c76f03c0",
+      "stepId": "ee9457f3-1efa-4082-aa6f-55bab820aa42",
+      "deeplinkId": null,
+      "name": "Recipe 5",
+      "groupName": null,
+      "displayName": "group_metrics_calculation",
+      "type": "DFSGROUP",
+      "column": 5.55556,
+      "row": -2.2,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "eeb23e29-e66a-4cc2-9b56-dcec48021240",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "1a9d3643-a34f-4f1d-b025-f9cd1056bff3",
+      "stepId": "db83b02e-6cd6-47fd-b8cd-4c52d319253d",
+      "deeplinkId": null,
+      "name": "df_future_count_sales Recipe",
+      "groupName": null,
+      "displayName": "df_future_count_sales Recipe",
+      "type": "DFSGROUP",
+      "column": 3.11111,
+      "row": 1.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "9d0628a2-457e-4395-9f4f-5d0574a2748c",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 200
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2",
+      "stepId": "6f0d7647-dc39-43f5-8628-d988d7c92820",
+      "deeplinkId": null,
+      "name": "Recipe 3",
+      "groupName": null,
+      "displayName": "Chart Build PS",
+      "type": "DFSGROUP",
+      "column": 3.77778,
+      "row": 4.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "61a34f3b-5862-4620-8019-91585137a9d7",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "586afebe-4444-4097-948c-1aef84646f82",
+      "stepId": "f01fa605-fc05-4729-8bac-2ff63a1c0098",
+      "deeplinkId": null,
+      "name": "df_sku_dictionary Recipe",
+      "groupName": null,
+      "displayName": "df_sku_dictionary Recipe",
+      "type": "DFSGROUP",
+      "column": -0.777778,
+      "row": 0.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "cf92bf13-a434-4dad-a85b-639f6afcfd16",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 100
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "99748e6e-53ee-4b94-a57d-fab71595d3cb",
+      "stepId": "d37152d2-1fb3-41e8-afbb-05da1139f1bf",
+      "deeplinkId": null,
+      "name": "NewInventoryExtract Recipe",
+      "groupName": null,
+      "displayName": "NewInventoryExtract Recipe",
+      "type": "DFSGROUP",
+      "column": 3.77778,
+      "row": 6.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "b61c3d66-6890-48ae-95a6-ea69673c2ee7",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "a2ea34d6-6022-47db-90ab-cedad85d3d36",
+      "stepId": "81c68fdc-126d-4233-a4ac-a481192d9c0c",
+      "deeplinkId": null,
+      "name": "Consolidated-Historical-Data Recipe",
+      "groupName": null,
+      "displayName": "Consolidated-Historical-Data Recipe",
+      "type": "DFSGROUP",
+      "column": -2.66667,
+      "row": 0.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "9cfdad19-d7c5-45c1-92af-d1a526aa7680",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "a6d1e6e2-f791-4609-96db-40235b31406b",
+      "stepId": "0ea8540c-4040-4ce3-b286-adb168d04117",
+      "deeplinkId": null,
+      "name": "df_results_count_sales Recipe",
+      "groupName": null,
+      "displayName": "df_results_count_sales Recipe",
+      "type": "DFSGROUP",
+      "column": 3.11111,
+      "row": -1.2,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "492ba3b8-d501-4b2f-9cef-bb6e6a245d05",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "b94ed06a-b585-4fe6-966d-f54b5888447c",
+      "stepId": "30c794f6-2686-459e-a7a5-18b3eaabbae0",
+      "deeplinkId": null,
+      "name": "Recipe",
+      "groupName": null,
+      "displayName": "Recipe",
+      "type": "DFSGROUP",
+      "column": 5.55556,
+      "row": 8.4,
+      "viewData": null,
+      "status": "ERROR",
+      "results": [
+        {
+          "name": "10d140a5-be93-431f-8ba8-d12938fd48ac",
+          "type": "TRANSFORM",
+          "status": "FAILURE",
+          "msgList": [
+            {
+              "level": "ERROR",
+              "msg": "Neither `start` nor `end` can be NaT\nTraceback (most recent call last):\n  File \"/tmp/tmpz7jzt89u.py\", line 247, in <module>\n    gkzXXVKP(internalContext)\n  File \"/tmp/tmpz7jzt89u.py\", line 147, in gkzXXVKP\n    months_all = pd.date_range(future_use['Sell_Date'].min(), future_use['Sell_Date'].max(), freq='MS')\n  File \"/opt/conda/envs/custom_py310/lib/python3.10/site-packages/pandas/core/indexes/datetimes.py\", line 1087, in date_range\n    dtarr = DatetimeArray._generate_range(\n  File \"/opt/conda/envs/custom_py310/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py\", line 418, in _generate_range\n    raise ValueError(\"Neither `start` nor `end` can be NaT\")\nValueError: Neither `start` nor `end` can be NaT"
+            }
+          ],
+          "transformRuntime": 0
+        },
+        {
+          "name": "Recipe",
+          "type": "RECIPE",
+          "status": "FAILURE",
+          "msgList": [
+            {
+              "level": "ERROR",
+              "msg": "Error while running recipe 'Recipe'. Please check recipe run logs for more details."
+            }
+          ],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "bd4732c3-fefe-4101-9a94-384f51ecbb6b",
+      "stepId": "fe9d4186-b147-4f98-b13d-d3b6089b7185",
+      "deeplinkId": null,
+      "name": "Recipe 6",
+      "groupName": null,
+      "displayName": "Recipe 6",
+      "type": "DFSGROUP",
+      "column": -4.88889,
+      "row": 0.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "a1e1dbc1-40a8-4fd9-9b21-f33d921aa408",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "e35b3ea7-52b9-48cb-89c4-d51a78ab665a",
+      "stepId": "18ed7403-dd94-4964-9af9-d7d5d127eb5d",
+      "deeplinkId": null,
+      "name": "Inventory Recipe",
+      "groupName": null,
+      "displayName": "Inventory Summary PS",
+      "type": "DFSGROUP",
+      "column": 5.55556,
+      "row": 6.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "180cfcaa-3179-4f65-a935-a3ee4b375f1c",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "e5148dd7-61d1-487b-b0f8-2aa67da00d65",
+      "stepId": "62b30165-a61f-4228-b0f7-f7a9b584485b",
+      "deeplinkId": null,
+      "name": "ProfitabilityExtract Recipe",
+      "groupName": null,
+      "displayName": "ProfitabilityExtract Recipe",
+      "type": "DFSGROUP",
+      "column": -6.88889,
+      "row": -0.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "159d51a3-fe80-4c2c-bd5b-4f79aeca781e",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "e55b1648-10e8-4cd7-8300-41646fd77613",
+      "stepId": "50b210c3-7034-4a57-8aa2-d902c55067c5",
+      "deeplinkId": null,
+      "name": "Recipe 4",
+      "groupName": null,
+      "displayName": "Recipe 4",
+      "type": "DFSGROUP",
+      "column": 7.44444,
+      "row": 9.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "9ce411dc-3c63-4525-a420-77046fcdd085",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "56396d09-5391-4e13-8f00-184e82a1f376",
+      "source": "02dbf308-c7ae-4d78-9ee8-876911ba8295",
+      "target": "1a9d3643-a34f-4f1d-b025-f9cd1056bff3"
+    },
+    {
+      "id": "b239da4c-19bf-43e6-b9ac-0b43bffc0d81",
+      "source": "02dbf308-c7ae-4d78-9ee8-876911ba8295",
+      "target": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2"
+    },
+    {
+      "id": "dbe24fd7-f92b-4b34-8539-333d2b2c3c74",
+      "source": "02dbf308-c7ae-4d78-9ee8-876911ba8295",
+      "target": "b94ed06a-b585-4fe6-966d-f54b5888447c"
+    },
+    {
+      "id": "aad383b7-c7d0-44f5-bbcc-c2919cfc912b",
+      "source": "19c2cdfb-c5c7-4535-8f3d-2322e0d4f377",
+      "target": "bd4732c3-fefe-4101-9a94-384f51ecbb6b"
+    },
+    {
+      "id": "b0f7441c-c034-462d-8654-4d8c077561c4",
+      "source": "22c1baf2-4bdb-4194-98a6-9a2076920e2d",
+      "target": "e5148dd7-61d1-487b-b0f8-2aa67da00d65"
+    },
+    {
+      "id": "68a5f4ed-8401-4bba-b7ba-faea5e20a630",
+      "source": "2b92026c-00ff-443f-b22d-8180de60fe9b",
+      "target": "e35b3ea7-52b9-48cb-89c4-d51a78ab665a"
+    },
+    {
+      "id": "f6ab4695-7794-45af-b112-f3a304a3539e",
+      "source": "2b92026c-00ff-443f-b22d-8180de60fe9b",
+      "target": "b94ed06a-b585-4fe6-966d-f54b5888447c"
+    },
+    {
+      "id": "5cf46b7b-7407-46d5-9d09-20fa63b08f66",
+      "source": "632f72bb-1e62-468c-96b5-2857ab9a6c1b",
+      "target": "1192a654-eca2-4cc5-908e-9352c76f03c0"
+    },
+    {
+      "id": "243ebb0f-8ad0-4886-840d-0340ca9346df",
+      "source": "66fbc10f-8de6-405c-9e7f-f8320bfe3a7a",
+      "target": "e55b1648-10e8-4cd7-8300-41646fd77613"
+    },
+    {
+      "id": "8c15206d-6de3-4336-904c-16d63f60f892",
+      "source": "69281a80-3f54-4bbf-becc-efdaffd6b9b2",
+      "target": "e55b1648-10e8-4cd7-8300-41646fd77613"
+    },
+    {
+      "id": "d8ed0c46-7c12-4120-93ac-d06993ae3f1d",
+      "source": "6b046b23-d377-401b-b3f0-2b7e1fa54983",
+      "target": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2"
+    },
+    {
+      "id": "133c9b7b-9ddb-4f07-8456-e569ec0a7ee4",
+      "source": "75f1b9e0-51f4-47ef-8080-bda828f339ac",
+      "target": "b94ed06a-b585-4fe6-966d-f54b5888447c"
+    },
+    {
+      "id": "191e1f54-efe8-4417-b3ea-5e38717b38a2",
+      "source": "75f1b9e0-51f4-47ef-8080-bda828f339ac",
+      "target": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2"
+    },
+    {
+      "id": "7fd0d791-f009-4b24-b10e-0ee71a5d0a1a",
+      "source": "75f1b9e0-51f4-47ef-8080-bda828f339ac",
+      "target": "1192a654-eca2-4cc5-908e-9352c76f03c0"
+    },
+    {
+      "id": "9638b7d1-5067-4f99-b20a-55357dedd7a0",
+      "source": "75f1b9e0-51f4-47ef-8080-bda828f339ac",
+      "target": "a6d1e6e2-f791-4609-96db-40235b31406b"
+    },
+    {
+      "id": "147dcbbf-a6cc-4fa0-95e0-6460ee7a0cfe",
+      "source": "77929da6-1357-4724-a0e4-7846f13725e6",
+      "target": "a2ea34d6-6022-47db-90ab-cedad85d3d36"
+    },
+    {
+      "id": "759a549a-3264-4b5d-ae2f-8613f2a957ce",
+      "source": "9c9caafb-8436-49af-832f-3cc3a4c6d011",
+      "target": "bd4732c3-fefe-4101-9a94-384f51ecbb6b"
+    },
+    {
+      "id": "e63b398c-8c40-4ffd-9cb6-d3a1e3b0b627",
+      "source": "ae720f8c-e1fe-40e7-9d3d-1d10f62f88d6",
+      "target": "586afebe-4444-4097-948c-1aef84646f82"
+    },
+    {
+      "id": "46f671c9-4ca6-4e1b-8e80-565880a0192b",
+      "source": "c552b4da-1bc6-412f-aaf2-b7d47183d376",
+      "target": "1192a654-eca2-4cc5-908e-9352c76f03c0"
+    },
+    {
+      "id": "6d1ec8f8-f245-4672-b3b3-6d6a9fa253fa",
+      "source": "dbfd986b-7aaf-4431-a06d-2e735a5d170d",
+      "target": "99748e6e-53ee-4b94-a57d-fab71595d3cb"
+    },
+    {
+      "id": "829f0661-e857-460f-93e0-280e64df9be9",
+      "source": "e03b74e3-0136-4ba8-8f86-639777b98c2c",
+      "target": "1192a654-eca2-4cc5-908e-9352c76f03c0"
+    },
+    {
+      "id": "177e0a22-8cf6-4c5d-80a8-0df611581850",
+      "source": "e3690861-da2b-46ba-9a41-839947dc36f3",
+      "target": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2"
+    },
+    {
+      "id": "4fd5250e-f0d8-4871-a8e3-e363bae0454f",
+      "source": "eb208353-ae66-4b39-9a21-aa94b2f779e1",
+      "target": "080d4256-ccc5-455f-a911-5f5f301d064b"
+    },
+    {
+      "id": "c6e6a1b4-157f-4ed6-8b91-fd05cf2896f9",
+      "source": "fc3d7976-ff23-4af3-8137-bfc2411aca6f",
+      "target": "586afebe-4444-4097-948c-1aef84646f82"
+    },
+    {
+      "id": "d1863701-c54a-43d6-9187-2749e0536e48",
+      "source": "080d4256-ccc5-455f-a911-5f5f301d064b",
+      "target": "02dbf308-c7ae-4d78-9ee8-876911ba8295"
+    },
+    {
+      "id": "571146e0-6fc1-4f39-9977-831754695ea9",
+      "source": "080d4256-ccc5-455f-a911-5f5f301d064b",
+      "target": "75f1b9e0-51f4-47ef-8080-bda828f339ac"
+    },
+    {
+      "id": "3f76a742-7350-498c-8793-07104e314800",
+      "source": "080d4256-ccc5-455f-a911-5f5f301d064b",
+      "target": "e3690861-da2b-46ba-9a41-839947dc36f3"
+    },
+    {
+      "id": "ee71d4dc-252e-44c1-af13-5dc7c40b43c7",
+      "source": "1192a654-eca2-4cc5-908e-9352c76f03c0",
+      "target": "4be0904f-7873-4c85-939b-d3a92ae1ab45"
+    },
+    {
+      "id": "b5f62a1a-3d87-4679-ae63-28d7280a088d",
+      "source": "1192a654-eca2-4cc5-908e-9352c76f03c0",
+      "target": "89800ad2-01c0-416c-b3ee-59f1c1d3a124"
+    },
+    {
+      "id": "f20cd813-ffd5-4965-9f4d-7a9ae8060451",
+      "source": "1192a654-eca2-4cc5-908e-9352c76f03c0",
+      "target": "9ec3ef50-50e4-4568-8d02-8b903298b7ea"
+    },
+    {
+      "id": "02e394ea-ebb2-46b9-b5a3-239382ab3267",
+      "source": "1a9d3643-a34f-4f1d-b025-f9cd1056bff3",
+      "target": "99d77757-75c0-4325-b32e-ab6265270e21"
+    },
+    {
+      "id": "f999ce36-1bea-4850-bf99-adb88713c2de",
+      "source": "23a6b12f-c411-4ce1-95fb-4b5d301d3db2",
+      "target": "2b9eba3f-40df-4f1b-97dd-a644a2726511"
+    },
+    {
+      "id": "9ecdedd1-1f54-4765-af13-5eec5ebb5878",
+      "source": "586afebe-4444-4097-948c-1aef84646f82",
+      "target": "eb208353-ae66-4b39-9a21-aa94b2f779e1"
+    },
+    {
+      "id": "a1aa0173-5dec-4fba-9c5f-0dd8bf34ae08",
+      "source": "99748e6e-53ee-4b94-a57d-fab71595d3cb",
+      "target": "2b92026c-00ff-443f-b22d-8180de60fe9b"
+    },
+    {
+      "id": "946f58ea-add0-4940-9e8b-937630b60a3a",
+      "source": "a2ea34d6-6022-47db-90ab-cedad85d3d36",
+      "target": "fc3d7976-ff23-4af3-8137-bfc2411aca6f"
+    },
+    {
+      "id": "8b0239af-6347-49df-9a29-21c1a8d97449",
+      "source": "a6d1e6e2-f791-4609-96db-40235b31406b",
+      "target": "c552b4da-1bc6-412f-aaf2-b7d47183d376"
+    },
+    {
+      "id": "6e353161-e33f-4842-b336-aa1b7fb47f24",
+      "source": "b94ed06a-b585-4fe6-966d-f54b5888447c",
+      "target": "69281a80-3f54-4bbf-becc-efdaffd6b9b2"
+    },
+    {
+      "id": "024fee4d-b60c-4230-a9bb-e8ea8e5780e0",
+      "source": "bd4732c3-fefe-4101-9a94-384f51ecbb6b",
+      "target": "77929da6-1357-4724-a0e4-7846f13725e6"
+    },
+    {
+      "id": "2075f5ed-27f0-4bb2-aa3f-315ff96d136f",
+      "source": "e35b3ea7-52b9-48cb-89c4-d51a78ab665a",
+      "target": "508be512-e1d7-4d3b-8c0e-fafb9de782a4"
+    },
+    {
+      "id": "d8ec2356-a8bb-4e63-a4d3-c38b28bc8398",
+      "source": "e5148dd7-61d1-487b-b0f8-2aa67da00d65",
+      "target": "19c2cdfb-c5c7-4535-8f3d-2322e0d4f377"
+    },
+    {
+      "id": "90627884-7b5b-41a3-b8ad-262d9df0d6eb",
+      "source": "e55b1648-10e8-4cd7-8300-41646fd77613",
+      "target": "221d779b-5e7a-494d-a491-be5e5a4e67af"
+    }
+  ],
+  "synced_at": "2026-02-14T23:07:09.617414"
+}
