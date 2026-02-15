@@ -1,0 +1,5 @@
+Cod_component,origem,motivo
+T73649,df_produto_fornecedor_ativo,Produto ativo sem dados em produto_fornecedor
+T0936L,df_produto_fornecedor_ativo,Produto ativo sem dados em produto_fornecedor
+T73649,create_main_dataframe,"Fornecedor ativo encontrado, mas ausente em df_produto_fornecedor"
+T0936L,create_main_dataframe,Sem historico de estoque (df_inventory_pivot)

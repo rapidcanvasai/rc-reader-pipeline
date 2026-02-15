@@ -1,0 +1,3 @@
+Cod_component,Cod_Fornecedor_Ativo,origem,motivo
+T73649,6523,produto_fornecedor_ativo.csv e produto_fornecedor.csv,Componente nao existe em produto_fornecedor.csv
+T0936L,2880,produto_fornecedor_ativo.csv e produto_fornecedor.csv,Componente nao existe em produto_fornecedor.csv

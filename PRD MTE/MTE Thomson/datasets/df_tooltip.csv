@@ -1,0 +1,31 @@
+Tabela,Variavel,Tooltip
+df_main,Cod_X,"O código ""X"" do MTE (MTE X)."
+df_main,Component,O código principal do componente (MTE).
+df_main,Description,A descrição textual do componente.
+df_main,Group_code,O código do grupo ao qual o produto pertence.
+df_main,Group_name,O nome do grupo do produto.
+df_main,Supplier,O nome do fornecedor do componente.
+df_main,Supp_Cod,O código do fornecedor.
+df_main,Currency,"A moeda do custo do componente (ex: USD, BRL)."
+df_main,Sales_12M,O total de vendas (quantidade) do item nos últimos 12 meses.
+df_main,Unfulfilled_12M,O total de vendas não atendidas (demanda perdida) nos últimos 12 meses.
+df_main,%_Export_12M,O percentual das vendas dos últimos 12 meses que foi destinado à exportação.
+df_main,Venda_mensal,"A média de vendas mensais, calculada como `Sales_12M / 12`."
+df_main,Demand_(LT+RP),A previsão de demanda (consumo) para o período combinado de Lead Time e Período de Revisão.
+df_main,Sales-M6,Vendas totais do Mês 6 (M-6) nos últimos 6 meses.
+df_main,Sales-M7,Vendas totais do Mês 7 (M-7) nos últimos 6 meses.
+df_main,Sales-M8,Vendas totais do Mês 8 (M-8) nos últimos 6 meses.
+df_main,Sales-M9,Vendas totais do Mês 9 (M-9) nos últimos 6 meses.
+df_main,Sales-M10,Vendas totais do Mês 10 (M-10) nos últimos 6 meses.
+df_main,Sales-M11,Vendas totais do Mês 11 (M-11) nos últimos 6 meses.
+df_main,Transit_2025-11,Quantidade total em trânsito com entrega prevista para 2025-11.
+df_main,Transit_2025-12,Quantidade total em trânsito com entrega prevista para 2025-12.
+df_main,Transit_2026-01,Quantidade total em trânsito com entrega prevista para 2026-01.
+df_main,Transit_2026-02,Quantidade total em trânsito com entrega prevista para 2026-02.
+df_main,Stock,A quantidade atual em estoque físico.
+df_main,Transit,A quantidade total de produto que já foi comprada e está em trânsito.
+df_main,Inspection,A quantidade de produto que está em processo de inspeção.
+df_main,Reserved,A quantidade de produto que está reservada para pedidos.
+df_main,Total_Stock,"O estoque total disponível, calculado como `Stock + Transit + Inspection`."
+df_main,Inventory_level,O nível de estoque na data base do cálculo.
+df_main,Final_order,A sugestão final de compra (Híbrida v2). Este é o valor final recomendado para o pedido.

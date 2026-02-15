@@ -1,0 +1,3342 @@
+{
+  "workspace": "PRD MTE",
+  "project": "MTE Thomson",
+  "scenario": "Unknown Scenario",
+  "project_id": "d06322b7-aecc-459a-aaaa-77b4e912af86",
+  "scenario_id": "b1630649-2065-4236-a77d-12cff916e593",
+  "nodes": [
+    {
+      "id": "036cdb5a-a140-4c5f-87db-91b10d8fb25b",
+      "stepId": "de6fce77-1cd0-4a91-af8f-df5628fa38d8",
+      "deeplinkId": null,
+      "name": "product_history",
+      "groupName": null,
+      "displayName": "product_history",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 19.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "043fef76-1448-460b-a397-9d3a62161fc5",
+      "stepId": "8b2c6bb0-48e5-4254-a4c5-a65e09e75f2a",
+      "deeplinkId": null,
+      "name": "df_historico_pedidos_previstos",
+      "groupName": null,
+      "displayName": "df_historico_pedidos_previstos",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "07471a99-f06b-4965-805b-c04e0e946cc5",
+      "stepId": "0c26ef5f-bb49-4ee8-8b7d-e548ecb9c246",
+      "deeplinkId": null,
+      "name": "product_forecast",
+      "groupName": null,
+      "displayName": "product_forecast",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 20.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "0d580952-f5c4-4a0f-9d65-5451f88d72f7",
+      "stepId": "1008b403-1dec-4520-85c0-66b58bf21cfe",
+      "deeplinkId": null,
+      "name": "sku_abc_xyz",
+      "groupName": null,
+      "displayName": "sku_abc_xyz",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 1.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "11bed2d6-db86-484c-b083-8ebc4497d46f",
+      "stepId": "52e6dd40-d422-425f-ade6-8b0d7762a972",
+      "deeplinkId": null,
+      "name": "new_multihorizon_products_abcxyz",
+      "groupName": null,
+      "displayName": "new_multihorizon_products_abcxyz",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "128a8074-df1f-4eb3-9ede-62a30eb377da",
+      "stepId": "25be1854-98dd-462c-9ca5-eb396907ea47",
+      "deeplinkId": null,
+      "name": "products_not_delivered_exportation",
+      "groupName": null,
+      "displayName": "products_not_delivered_exportation",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 7.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "stepId": "8898b97a-9d6d-4f9e-9322-b0922ea2db9e",
+      "deeplinkId": null,
+      "name": "df_vendas",
+      "groupName": null,
+      "displayName": "df_vendas",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 7.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "17059943-9e0c-47e3-977a-1e1af5169801",
+      "stepId": "479c6ae9-ecfe-4891-8c53-398c39f69374",
+      "deeplinkId": null,
+      "name": "component_forecast",
+      "groupName": null,
+      "displayName": "component_forecast",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": 14.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "17af19b8-938e-4d1c-bd3f-4cb9929ab2df",
+      "stepId": "1e0dc849-a13d-47ca-b1a6-d784c8d6b57f",
+      "deeplinkId": null,
+      "name": "new_monthly_portalvendas_components",
+      "groupName": null,
+      "displayName": "new_monthly_portalvendas_components",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 15.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "17c949a5-9168-4819-b77f-82340de9822c",
+      "stepId": "50710d11-4e28-4de0-9217-6b872f61fd4b",
+      "deeplinkId": null,
+      "name": "components_consumption_by_products",
+      "groupName": null,
+      "displayName": "components_consumption_by_products",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": 16.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2433a6dd-da07-49c4-951d-ef4c569eca01",
+      "stepId": "9b712df9-fa65-426d-8a87-455548278703",
+      "deeplinkId": null,
+      "name": "df_historico_pedidos_realizados",
+      "groupName": null,
+      "displayName": "df_historico_pedidos_realizados",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 0.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "25b8ff3a-0683-46cc-b95f-b0dc8cf339df",
+      "stepId": "55e3ef9c-fd69-4901-b579-be748c0cb2f8",
+      "deeplinkId": null,
+      "name": "protheus_orders_history",
+      "groupName": null,
+      "displayName": "protheus_orders_history",
+      "type": "ARTIFACT",
+      "column": 10.4444,
+      "row": 11.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "25e14ca9-a030-4812-9098-d1090fa64681",
+      "stepId": "e7491224-65e7-4d32-bfb3-0a46dab39d1a",
+      "deeplinkId": null,
+      "name": "inventory_stock_forecast",
+      "groupName": null,
+      "displayName": "inventory_stock_forecast",
+      "type": "ENTITY",
+      "column": 12.7778,
+      "row": 3.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "26008d5f-969a-4e51-a892-8d2362f8bc08",
+      "stepId": "c31952ad-76ed-429e-a1d2-ceced537f5f1",
+      "deeplinkId": null,
+      "name": "excecoes_produtos_sem_fornecedores",
+      "groupName": null,
+      "displayName": "excecoes_produtos_sem_fornecedores",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2954b746-be08-4c19-a377-e093e7a63f1e",
+      "stepId": "36175888-7a2c-4d9b-9d44-1be973f3c15f",
+      "deeplinkId": "28f990d0-05b9-4739-91e2-34dda0858397",
+      "name": "ps_compare_dataframe",
+      "groupName": null,
+      "displayName": "ps_compare_dataframe",
+      "type": "MODEL",
+      "column": 0.888889,
+      "row": 20.4,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2c95e876-7c9c-482f-8482-0d84b4ac6963",
+      "stepId": "88117ba1-04b5-454e-802e-174fa53044d9",
+      "deeplinkId": null,
+      "name": "new_daily_portalvendasmultihorizon_products",
+      "groupName": null,
+      "displayName": "new_daily_portalvendasmultihorizon_products",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 18.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2f454e09-785b-4ac0-a651-f68162dec22e",
+      "stepId": "466c8277-bfc9-409d-8c4d-6fe9419b320f",
+      "deeplinkId": null,
+      "name": "new_multihorizon_components_abcxyz",
+      "groupName": null,
+      "displayName": "new_multihorizon_components_abcxyz",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 4.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "2fc65f92-9bff-4e7b-bd23-8778373be1a4",
+      "stepId": "0e20d2e5-07b9-4f01-a753-c8fa8b9edb71",
+      "deeplinkId": null,
+      "name": "historico_pedidos",
+      "groupName": null,
+      "displayName": "historico_pedidos",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": -0.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "stepId": "ae318763-4667-4842-b6c3-0d52472f286a",
+      "deeplinkId": null,
+      "name": "df_estrutura_produto",
+      "groupName": null,
+      "displayName": "df_estrutura_produto",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 4.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "36c47b83-7f86-4175-b396-a15b1e09f711",
+      "stepId": "a231d470-8ae5-4ae4-bb73-b058b8e743da",
+      "deeplinkId": null,
+      "name": "movimentacao_estoque",
+      "groupName": null,
+      "displayName": "movimentacao_estoque",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 4.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "3defa438-3d48-437e-804c-b879e463b0ce",
+      "stepId": "2054ed78-b7db-474d-8329-7b5f47f57215",
+      "deeplinkId": null,
+      "name": "df_sem_match_atual_5",
+      "groupName": null,
+      "displayName": "df_sem_match_atual_5",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 4.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "4526fa4b-0d49-4f8a-9684-b70bbcd9a506",
+      "stepId": "bf611ba7-ba6b-4b12-b781-58817e41cd0b",
+      "deeplinkId": null,
+      "name": "produtos",
+      "groupName": null,
+      "displayName": "produtos",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 5.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "493f2833-1b79-4843-b50d-65c766858626",
+      "stepId": "a5ccde09-4dbf-4e55-b12e-4b37e5940cd2",
+      "deeplinkId": null,
+      "name": "new_daily_portalvendas",
+      "groupName": null,
+      "displayName": "new_daily_portalvendas",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 17.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "54e502c8-d546-4119-a972-bcf0caf3e97c",
+      "stepId": "a3ffc09a-4c0e-4941-abef-61c82d533e26",
+      "deeplinkId": null,
+      "name": "parametro_fornecedor",
+      "groupName": null,
+      "displayName": "parametro_fornecedor",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 8.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "58e3d003-842c-4014-a24c-c5c889b69706",
+      "stepId": "c70d5de0-5739-4692-9faf-e69fb4a4cd7a",
+      "deeplinkId": null,
+      "name": "lt_rp",
+      "groupName": null,
+      "displayName": "lt_rp",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 7.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "5e615063-3c79-43fd-a010-c4513ea277c5",
+      "stepId": "fabb829f-a3bf-404c-a3b9-659a28e80ff4",
+      "deeplinkId": null,
+      "name": "df_historico_pedidos_lead_time",
+      "groupName": null,
+      "displayName": "df_historico_pedidos_lead_time",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "614bcd76-1118-4533-a091-626e972b0781",
+      "stepId": "a47e1691-c0ec-4b94-9f0b-320da5176495",
+      "deeplinkId": null,
+      "name": "estrutura_produto",
+      "groupName": null,
+      "displayName": "estrutura_produto",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 3.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "647ce9b5-4110-4df5-a0b7-b5d940eacffc",
+      "stepId": "9f227eaf-c36b-4714-b6e0-cb94617413b3",
+      "deeplinkId": null,
+      "name": "order_history",
+      "groupName": null,
+      "displayName": "order_history",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 6.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "671cbccd-e490-48c5-9272-bbce2dd3b9a7",
+      "stepId": "09bd1e70-ee3f-4e6c-8f72-d5e43198ff98",
+      "deeplinkId": null,
+      "name": "df_main",
+      "groupName": null,
+      "displayName": "df_main",
+      "type": "ENTITY",
+      "column": 9.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "67611e9c-9db8-4f1c-a8fa-ade18afdc4e6",
+      "stepId": "e943a1c0-9a61-49ac-a040-f51bc2ef97fb",
+      "deeplinkId": null,
+      "name": "supplier_lead_time",
+      "groupName": null,
+      "displayName": "supplier_lead_time",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 9.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "69240b50-b7b7-4c53-97db-b02704294808",
+      "stepId": "9950132d-a031-4f9a-997d-ad70e8987464",
+      "deeplinkId": null,
+      "name": "new_monthly_portalvendas",
+      "groupName": null,
+      "displayName": "new_monthly_portalvendas",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 10.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "6b53510f-a368-4278-9397-5ae03c81120d",
+      "stepId": "457a346e-c325-40e5-a3e1-4b496b00c83e",
+      "deeplinkId": null,
+      "name": "estoque_atual",
+      "groupName": null,
+      "displayName": "estoque_atual",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 6.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "6d0040e7-1ae9-431d-8770-9a29a667ca98",
+      "stepId": "af8df1f8-c3f9-4b8f-ba27-7ba8c066e9f5",
+      "deeplinkId": null,
+      "name": "component_history",
+      "groupName": null,
+      "displayName": "component_history",
+      "type": "ENTITY",
+      "column": 8.0,
+      "row": 15.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "6fe5f6e0-95fc-4ef6-a573-7be51bccc1f2",
+      "stepId": "cdf6dac8-c0a1-43f3-9ac9-b4c19947abfa",
+      "deeplinkId": null,
+      "name": "df_sem_match_atual_2",
+      "groupName": null,
+      "displayName": "df_sem_match_atual_2",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 3.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "73590c75-2f0a-4ece-b67d-0cbe7375f79f",
+      "stepId": "6a29ab8b-e2c3-4f27-8a43-0713cb99960e",
+      "deeplinkId": null,
+      "name": "df_pedidos_pendentes",
+      "groupName": null,
+      "displayName": "df_pedidos_pendentes",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 10.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "737b27fb-43c2-4609-8c9b-526f57ec45d9",
+      "stepId": "fb6d0d68-bec3-40b4-aa57-66e35eec31d4",
+      "deeplinkId": null,
+      "name": "df_pending_orders",
+      "groupName": null,
+      "displayName": "df_pending_orders",
+      "type": "ENTITY",
+      "column": 9.0,
+      "row": 5.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "78031db2-ef8f-44bc-ab27-81617ffc334f",
+      "stepId": "29b4ca31-5a0c-407f-a939-c42ef9aea8b7",
+      "deeplinkId": null,
+      "name": "df_vendas_with_exportacao",
+      "groupName": null,
+      "displayName": "df_vendas_with_exportacao",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 10.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "7b21cb69-91bf-4fc5-9ea0-a998044929ce",
+      "stepId": "bffa7a05-d45b-4bd4-8caf-23e7ea02dcc0",
+      "deeplinkId": null,
+      "name": "main",
+      "groupName": null,
+      "displayName": "main",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 9.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "7c88beb8-8d28-46ef-812f-ebe4b5ab4a70",
+      "stepId": "88ae125a-6164-4afd-86b7-46c94592d5e1",
+      "deeplinkId": null,
+      "name": "financial_summary_abc_xyz",
+      "groupName": null,
+      "displayName": "financial_summary_abc_xyz",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 11.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "8440474f-793b-4018-8e72-be7cadae6232",
+      "stepId": "ed87108d-0130-405a-a8b6-8680e339d9d2",
+      "deeplinkId": null,
+      "name": "monthly_analysis_components_comparative",
+      "groupName": null,
+      "displayName": "monthly_analysis_components_comparative",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 16.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "847c5cd1-32a7-49f6-bd25-1c389ec75508",
+      "stepId": "5067d020-ee92-4ec7-89c6-cd10c2522c9a",
+      "deeplinkId": null,
+      "name": "df_main_confidence_interval",
+      "groupName": null,
+      "displayName": "df_main_confidence_interval",
+      "type": "ENTITY",
+      "column": 10.7778,
+      "row": 3.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "8d9975fb-0c3c-44ec-918d-4bb4404ca123",
+      "stepId": "0457775c-46e8-4f4e-830f-fdd047df4dfd",
+      "deeplinkId": null,
+      "name": "predictions_components_abc_xyz",
+      "groupName": null,
+      "displayName": "predictions_components_abc_xyz",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 12.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "8f90e3ca-7978-4ced-9822-fd9b9fc0eac5",
+      "stepId": "e376a4ed-bdf0-4cfb-9dff-3f7e0c792dd1",
+      "deeplinkId": null,
+      "name": "inventory_stock_history",
+      "groupName": null,
+      "displayName": "inventory_stock_history",
+      "type": "ENTITY",
+      "column": 12.7778,
+      "row": 4.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "90d98321-fc28-4e33-b90f-64e5bacbca8b",
+      "stepId": "adab265a-06c9-4ba7-8492-2e927aff51f7",
+      "deeplinkId": null,
+      "name": "database",
+      "groupName": null,
+      "displayName": "database",
+      "type": "ARTIFACT",
+      "column": 12.5556,
+      "row": 7.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "99c535a2-65e6-430f-b1b6-49fbfa818d3d",
+      "stepId": "49a6c0d7-1bc0-4936-ae90-14530a375a79",
+      "deeplinkId": null,
+      "name": "df_historico_pedidos",
+      "groupName": null,
+      "displayName": "df_historico_pedidos",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "9a2441d6-6a2c-4f1c-a97e-e46d41888414",
+      "stepId": "06271c55-067a-4cf5-85bc-46f56e9d2d55",
+      "deeplinkId": null,
+      "name": "supplier_group_history",
+      "groupName": null,
+      "displayName": "supplier_group_history",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 7.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "9fea503f-47b3-4fb0-b5e8-2b5b8ed0bb33",
+      "stepId": "da1a7e4c-cfd0-425a-b6e6-939c36177a5d",
+      "deeplinkId": null,
+      "name": "predictions_products_abc_xyz",
+      "groupName": null,
+      "displayName": "predictions_products_abc_xyz",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 12.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "a058fb7b-8ba1-455a-8146-3e973d2b5dad",
+      "stepId": "7e8ad227-32d2-4966-8e63-4d141840188d",
+      "deeplinkId": null,
+      "name": "datas_reajustes",
+      "groupName": null,
+      "displayName": "datas_reajustes",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 13.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "a4874edc-ae06-47ae-b1cb-1df61687d178",
+      "stepId": "77138f56-be71-4156-ab08-a96f5ec710d3",
+      "deeplinkId": null,
+      "name": "df_products_not_delivered_exportation",
+      "groupName": null,
+      "displayName": "df_products_not_delivered_exportation",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 5.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "a95c9df9-bc49-4a49-8380-1a23b2f6bd61",
+      "stepId": "7453392b-a3d1-4870-97f4-8f8e439ce87f",
+      "deeplinkId": null,
+      "name": "predictions_products_train_test",
+      "groupName": null,
+      "displayName": "predictions_products_train_test",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 13.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b19fe615-a726-4466-ae01-541e0ff885ec",
+      "stepId": "7b7c536c-90a6-4d98-9454-0b676ce2b509",
+      "deeplinkId": null,
+      "name": "pedidos_pendentes",
+      "groupName": null,
+      "displayName": "pedidos_pendentes",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 10.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b2a230a2-e254-4cf9-8b4d-34148fc6773e",
+      "stepId": "ae622a74-31d3-4dd8-83f2-6996d30c1f3a",
+      "deeplinkId": null,
+      "name": "new_daily_portalvendas_components",
+      "groupName": null,
+      "displayName": "new_daily_portalvendas_components",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 14.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b33fc65e-cbc6-4fac-83e9-1b1a588641ff",
+      "stepId": "f90a2503-4a5c-4bef-b951-94708663b64b",
+      "deeplinkId": null,
+      "name": "new_main_abcxyz",
+      "groupName": null,
+      "displayName": "new_main_abcxyz",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 3.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b78ee0ba-76d2-4c60-8ae3-87bdf11aca1f",
+      "stepId": "5150ca05-b1f1-45c8-be24-bd143d6cd6c0",
+      "deeplinkId": null,
+      "name": "vendas",
+      "groupName": null,
+      "displayName": "vendas",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 9.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b956fb7e-d995-4967-8571-535fcdbfed2c",
+      "stepId": "136bc2ed-4730-4618-b5e3-ebade3b14aa0",
+      "deeplinkId": null,
+      "name": "faturamento_minimo",
+      "groupName": null,
+      "displayName": "faturamento_minimo",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": -1.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "bbaa8f25-fd7d-4105-ab54-bc061c8fd228",
+      "stepId": "72ae69c7-1b8a-46fc-b81b-928e6fee7ce8",
+      "deeplinkId": null,
+      "name": "df_sem_match",
+      "groupName": null,
+      "displayName": "df_sem_match",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 6.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "c0a69386-94e9-4e12-8cf9-3388f6dd3f50",
+      "stepId": "8e3f4d68-1557-44ea-8d2e-86a0c255e9c6",
+      "deeplinkId": "9f2ef0ba-f778-4d11-9bbc-6718ac5a490d",
+      "name": "get_dataset_parquet",
+      "groupName": null,
+      "displayName": "get_dataset_parquet",
+      "type": "MODEL",
+      "column": 9.77778,
+      "row": 14.6,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "stepId": "502497a9-b54b-4749-a1e7-d831880b36db",
+      "deeplinkId": null,
+      "name": "df_produtos",
+      "groupName": null,
+      "displayName": "df_produtos",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 11.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "c4bf0cbb-620d-4bc4-a2ac-3d993dc8185e",
+      "stepId": "cf19d1ce-79e8-49d2-b68f-0c1a1340edcd",
+      "deeplinkId": null,
+      "name": "metricas_por_classificacao",
+      "groupName": null,
+      "displayName": "metricas_por_classificacao",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 13.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "caed850c-accd-4cb9-95b0-86a6c7888937",
+      "stepId": "e9b99e2d-8f00-481c-96da-50f6a21eec63",
+      "deeplinkId": "580f0496-b467-450d-8590-c36eecc11168",
+      "name": "mte_text_to_sql",
+      "groupName": null,
+      "displayName": "mte_text_to_sql",
+      "type": "MODEL",
+      "column": 14.0,
+      "row": 7.8,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "cc94db1a-d364-4e02-8dfc-b3034ce6dfec",
+      "stepId": "ada7c06b-f2fa-4cfe-a8a0-fd4a1f6bc44e",
+      "deeplinkId": null,
+      "name": "df_predictions_source",
+      "groupName": null,
+      "displayName": "df_predictions_source",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 11.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "cdfe8daa-8ce3-40d9-bbad-0c4e6c7261d8",
+      "stepId": "0b28d3d4-d118-4d2f-adf2-c1e59034aa35",
+      "deeplinkId": null,
+      "name": "produto_fornecedor_ativo",
+      "groupName": null,
+      "displayName": "produto_fornecedor_ativo",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 14.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "d1002af6-f03f-4d57-b1fe-dbf4243503b8",
+      "stepId": "65fc79f8-b2e8-4f95-8f1e-7eae6a81a2aa",
+      "deeplinkId": "9aa7e6a4-4b15-415e-9ef7-61101cb643f3",
+      "name": "ps_get_protheus1",
+      "groupName": null,
+      "displayName": "ps_get_protheus1",
+      "type": "MODEL",
+      "column": 0.888889,
+      "row": 21.4,
+      "viewData": [
+        {
+          "version": "default"
+        }
+      ],
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "d1599749-1307-4340-afbe-8833a24865c9",
+      "stepId": "371c5afc-1a90-4990-8c19-b07ec4e7ebc3",
+      "deeplinkId": null,
+      "name": "new_compiled_components2",
+      "groupName": null,
+      "displayName": "new_compiled_components2",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 6.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "d320295a-cecd-4178-9cd1-116ad9718443",
+      "stepId": "626187e8-d4fa-4df4-bcbe-d3ca22c5f21f",
+      "deeplinkId": null,
+      "name": "df_protheus",
+      "groupName": null,
+      "displayName": "df_protheus",
+      "type": "ENTITY",
+      "column": 10.7778,
+      "row": 2.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "d6773c90-ea23-4a63-ad20-2004720c41d3",
+      "stepId": "4d242dd1-7c66-43c0-b12c-d928cefa067f",
+      "deeplinkId": null,
+      "name": "df_tooltip",
+      "groupName": null,
+      "displayName": "df_tooltip",
+      "type": "ENTITY",
+      "column": 0.888889,
+      "row": 19.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "d8e8044c-b8ec-4e25-a193-90ce47091234",
+      "stepId": "82701011-fcd4-4e54-b6d7-2b9f60d975d4",
+      "deeplinkId": null,
+      "name": "new_inventory_histories2",
+      "groupName": null,
+      "displayName": "new_inventory_histories2",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 9.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "daf28cc9-1386-42d5-9f5e-093fb0dae174",
+      "stepId": "13835a07-9c56-4eea-b162-bb02b3d40b88",
+      "deeplinkId": null,
+      "name": "df_produto_fornecedor",
+      "groupName": null,
+      "displayName": "df_produto_fornecedor",
+      "type": "ENTITY",
+      "column": 2.0,
+      "row": 8.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "db3e9459-8093-4f2a-bf5d-3170aed501a9",
+      "stepId": "98dc4385-69a6-4e41-bb68-57e21ccf0e90",
+      "deeplinkId": null,
+      "name": "produtos_sob_demanda",
+      "groupName": null,
+      "displayName": "produtos_sob_demanda",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 15.2,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "dc46b9e5-5733-40b8-819d-5cc54979af34",
+      "stepId": "c33163d9-4e92-4c7e-874d-65393042e89a",
+      "deeplinkId": null,
+      "name": "new_multihorizon_components",
+      "groupName": null,
+      "displayName": "new_multihorizon_components",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 9.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "e345b0ad-be39-4b9b-a004-25b401025b3d",
+      "stepId": "5e411251-48dc-4062-bcdd-0ed46c8ac9e2",
+      "deeplinkId": null,
+      "name": "financial_analysis_components_comparative",
+      "groupName": null,
+      "displayName": "financial_analysis_components_comparative",
+      "type": "ENTITY",
+      "column": 6.11111,
+      "row": 14.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "e3d17376-6716-42b4-8e05-53c873f644e4",
+      "stepId": "354d499c-a030-41ac-afd6-261c9b8aa6b8",
+      "deeplinkId": null,
+      "name": "produto_fornecedor",
+      "groupName": null,
+      "displayName": "produto_fornecedor",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 16.4,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "e580a40b-d15f-44f6-ac87-3120df18efd9",
+      "stepId": "349956ce-15f1-4868-bd30-a98d05a22f8c",
+      "deeplinkId": null,
+      "name": "portal_vendas",
+      "groupName": null,
+      "displayName": "portal_vendas",
+      "type": "ENTITY",
+      "column": 0.0,
+      "row": 17.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": {
+        "id": "099bd201-d711-4697-b85b-4d97c6750c8b",
+        "name": "machinelearningmte",
+        "type": "AZURE_BLOB",
+        "tpConnectorType": null,
+        "purpose": "IMPORT",
+        "status": null,
+        "errorMessage": null
+      },
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "ea01dacf-75dc-431d-9e4b-729dd90b4352",
+      "stepId": "9665e6a4-a7a3-4d1b-9482-5ba048cc83ea",
+      "deeplinkId": null,
+      "name": "inventory_stock_metrics",
+      "groupName": null,
+      "displayName": "inventory_stock_metrics",
+      "type": "ENTITY",
+      "column": 12.7778,
+      "row": 5.8,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "f15196c7-c918-434e-9bba-02699b2431d4",
+      "stepId": "0f1f4b62-4d49-4e50-b61d-4dce0849f6de",
+      "deeplinkId": null,
+      "name": "product_structure",
+      "groupName": null,
+      "displayName": "product_structure",
+      "type": "ENTITY",
+      "column": 8.11111,
+      "row": 21.6,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "faea0b6b-54ae-4f59-8015-a25adcd1810c",
+      "stepId": "8f586ff9-a56e-46ca-9080-55e0bc196a76",
+      "deeplinkId": null,
+      "name": "predictions_components_train_test",
+      "groupName": null,
+      "displayName": "predictions_components_train_test",
+      "type": "ENTITY",
+      "column": 4.0,
+      "row": 12.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "fc5d5fbe-9d49-44d7-a074-4e466c776617",
+      "stepId": "43ff091b-7862-4454-9370-01ded2c7ea0b",
+      "deeplinkId": null,
+      "name": "df_ruptura",
+      "groupName": null,
+      "displayName": "df_ruptura",
+      "type": "ENTITY",
+      "column": 10.7778,
+      "row": 1.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "0c1d3128-563a-48b9-86a5-7caf1c03c366",
+      "stepId": "3b427602-97f5-4d6d-b63f-2bec5900d583",
+      "deeplinkId": null,
+      "name": "inventory_histories Recipe",
+      "groupName": null,
+      "displayName": "projected_level_history Recipe",
+      "type": "DFSGROUP",
+      "column": 11.7778,
+      "row": 4.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "d49bc8cd-2f8e-40fb-8fb6-316baf72c0ff",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 300
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "stepId": "57c09435-416b-4087-8654-c5f998aac5a8",
+      "deeplinkId": null,
+      "name": "estrutura_produto Recipe",
+      "groupName": null,
+      "displayName": "Sanitizer Recipe",
+      "type": "DFSGROUP",
+      "column": 1.0,
+      "row": 6.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "696dba2f-5959-4b28-9ff9-fd332677fd9b",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 700
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "18ee667d-cef5-40b3-87df-7440c476d2f0",
+      "stepId": "97f22375-dd65-49b0-8132-04f8ce9ebb4f",
+      "deeplinkId": null,
+      "name": "Recipe 12",
+      "groupName": null,
+      "displayName": "create_duckdb",
+      "type": "DFSGROUP",
+      "column": 11.7778,
+      "row": 7.8,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "cd3c1d82-16b9-41ef-9a5b-63d74e6f509f",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "252a8a8e-aa7f-4c85-baa9-f3b2f1ea8de4",
+      "stepId": "76a03d81-8319-479a-b956-e734e93f0d85",
+      "deeplinkId": null,
+      "name": "pedidos_pendentes Recipe",
+      "groupName": null,
+      "displayName": "pedidos_pendentes Recipe",
+      "type": "DFSGROUP",
+      "column": 8.11111,
+      "row": 5.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "10639893-1ae0-41a9-b139-6fa5e753d458",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd",
+      "stepId": "c9e262e5-d489-4ec4-b90b-c6b84e03c96f",
+      "deeplinkId": null,
+      "name": "Recipe 10",
+      "groupName": null,
+      "displayName": "supplier_history_view",
+      "type": "DFSGROUP",
+      "column": 7.11111,
+      "row": 7.8,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "37e408fa-73cf-4064-9597-45b511b8efef",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "3cce584d-597c-4620-9ac0-eb211d478a28",
+      "stepId": "68ff4492-da3f-49c8-b8fa-e49983e20343",
+      "deeplinkId": null,
+      "name": "Recipe 3",
+      "groupName": null,
+      "displayName": "New Order Suggestion",
+      "type": "DFSGROUP",
+      "column": 5.11111,
+      "row": 9.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "c5849d73-2be9-4076-95c3-425e3a5dab0d",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 800
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "4d608ca6-927b-4383-bc5a-bddacb04ee0d",
+      "stepId": "b5641fdb-3855-4cfe-af0a-bb5bc7eb4d63",
+      "deeplinkId": null,
+      "name": "df_main Recipe",
+      "groupName": null,
+      "displayName": "df_main Recipe",
+      "type": "DFSGROUP",
+      "column": 10.0,
+      "row": 3.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "83c6736b-fbae-4f14-b225-88818bcd2281",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "stepId": "eaa03589-8258-40a4-8717-9e4c3cf497d6",
+      "deeplinkId": null,
+      "name": "Recipe 7",
+      "groupName": null,
+      "displayName": "New 01 Process",
+      "type": "DFSGROUP",
+      "column": 3.0,
+      "row": 13.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "c8960aa2-8b92-4160-99a3-6c44a464e6a9",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 1000
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "71cd4ca3-a4de-4910-88f4-8eaa3cf46f2d",
+      "stepId": "502ef279-e668-4ed5-ae38-eef651760bb1",
+      "deeplinkId": null,
+      "name": "Recipe 4",
+      "groupName": null,
+      "displayName": "text-to-sql",
+      "type": "DFSGROUP",
+      "column": 13.3333,
+      "row": 7.8,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "b7ed02e1-8a4f-4a67-9c9c-a5f222331b46",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "7d7e4ea3-ff0e-4614-83e0-745201350914",
+      "stepId": "b299c0b8-a583-4a29-bc87-6ff4547a46d3",
+      "deeplinkId": null,
+      "name": "Recipe 11",
+      "groupName": null,
+      "displayName": "product_view",
+      "type": "DFSGROUP",
+      "column": 7.33333,
+      "row": 19.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "5bf762bc-6e5a-42ab-abf1-b6382f729bb4",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "953bcb3b-b8c8-416b-91c6-3f562bd70a0f",
+      "stepId": "e09124bc-e852-4b5e-9034-4fe6e0cd4376",
+      "deeplinkId": null,
+      "name": "Recipe 2",
+      "groupName": null,
+      "displayName": "Tooltip Recipe",
+      "type": "DFSGROUP",
+      "column": 0.0,
+      "row": 19.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "a54c0b83-fe4f-42ec-8d6a-6357e8f8ff1c",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "9c066fdb-d1e4-4128-b512-4653ed614a40",
+      "stepId": "624d4f53-a3a3-4f7a-aca5-0f26c0090d83",
+      "deeplinkId": null,
+      "name": "Recipe",
+      "groupName": null,
+      "displayName": "API to Compare Dataframes",
+      "type": "DFSGROUP",
+      "column": 0.0,
+      "row": 20.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "283b8762-dc84-43b1-a322-271a3c65a677",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "a2a5fd88-0734-45a6-a9ca-7dc672cc9c7a",
+      "stepId": "37402e25-9103-4b27-b12f-7b0ccabfcb22",
+      "deeplinkId": null,
+      "name": "historico_pedidos Recipe",
+      "groupName": null,
+      "displayName": "Lead Time Recipe",
+      "type": "DFSGROUP",
+      "column": 3.11111,
+      "row": -1.2,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "4c142bc5-3888-4433-a111-02bab483f725",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "a4979f51-1bed-4d93-ac88-eb92fc3d0f9f",
+      "stepId": "ff5a220e-1c48-42f9-aab0-192213312299",
+      "deeplinkId": null,
+      "name": "Recipe 6",
+      "groupName": null,
+      "displayName": "get_classified_data_parquet",
+      "type": "DFSGROUP",
+      "column": 8.88889,
+      "row": 14.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "7f49a25c-24ef-4781-9ab7-d7653798b6cf",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "acc179da-13c7-4088-ab3e-862e58501315",
+      "stepId": "5352f74f-b62a-4a9b-869b-8b60d27661e2",
+      "deeplinkId": null,
+      "name": "predictions_components_train_test Recipe",
+      "groupName": null,
+      "displayName": "predictions_components_train_test Recipe",
+      "type": "DFSGROUP",
+      "column": 5.11111,
+      "row": 12.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "fd810c64-1379-4f6d-8b9b-200f5c574a4e",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "b258d3c2-44e4-42e9-99fa-8a3ba192e185",
+      "stepId": "c80d75a6-02c0-49cd-b934-4014883bbd8b",
+      "deeplinkId": null,
+      "name": "produtos Recipe",
+      "groupName": null,
+      "displayName": "New 01 Process ABCXYZ",
+      "type": "DFSGROUP",
+      "column": 3.0,
+      "row": 3.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "00dc68c3-2e04-448f-8d32-969061baa088",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 300
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "b355ab9c-e6a6-4287-87c9-1d3918b73d86",
+      "stepId": "2145b66c-5414-49be-988a-4b96c4eaf0bc",
+      "deeplinkId": null,
+      "name": "Recipe 5",
+      "groupName": null,
+      "displayName": "Recipe 5",
+      "type": "DFSGROUP",
+      "column": 0.0,
+      "row": 21.4,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "cc443b83-854a-4f33-8962-634a21738727",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb",
+      "stepId": "b155fbcb-7854-4a9a-8cb7-78b4ba1c1a41",
+      "deeplinkId": null,
+      "name": "Recipe 4_30161112954",
+      "groupName": null,
+      "displayName": "main Recipe",
+      "type": "DFSGROUP",
+      "column": 8.11111,
+      "row": 2.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "d4abbfb2-b255-40aa-8b96-e9d76ef64b22",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "cbc56703-118b-4183-8a40-d413e19fd7ea",
+      "stepId": "b258105b-11a7-4130-848e-2129f8527182",
+      "deeplinkId": null,
+      "name": "Recipe 9",
+      "groupName": null,
+      "displayName": "New 03 Order Suggestions ABC XYZ",
+      "type": "DFSGROUP",
+      "column": 5.11111,
+      "row": 4.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "51fb7a15-8aa3-4d59-9997-fc1f39e06952",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 900
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "d15c45e4-199f-4abf-8951-746d4e19b31e",
+      "stepId": "97036e0f-9157-4289-9e38-2413d80fbfdc",
+      "deeplinkId": null,
+      "name": "df_main3 Recipe_30203226875",
+      "groupName": null,
+      "displayName": "ruptura Recipe",
+      "type": "DFSGROUP",
+      "column": 10.0,
+      "row": 1.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "b6fa8ffb-6840-46a4-a323-b899dab1d749",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "d1d2f2b4-d5b5-4433-b50c-627bb196d282",
+      "stepId": "dfb9a92a-c1be-4159-bb53-256657b5d1f4",
+      "deeplinkId": null,
+      "name": "Recipe 2_30203343198",
+      "groupName": null,
+      "displayName": "Protheus Recipe",
+      "type": "DFSGROUP",
+      "column": 10.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "d8812b1a-4622-4a56-b23d-3345c7d2bad9",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "ea5314e0-0772-4acf-8f40-5943db529196",
+      "stepId": "13676ab2-8ebf-40f6-a4fe-98f71598e2af",
+      "deeplinkId": null,
+      "name": "df_historico_pedidos Recipe",
+      "groupName": null,
+      "displayName": "Lead Time Analysis Recipe",
+      "type": "DFSGROUP",
+      "column": 5.0,
+      "row": -1.2,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "83c0fed2-179a-4fa3-945a-f10da279103a",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    },
+    {
+      "id": "ea67c17b-95e1-4c7b-974a-bcffb2889afd",
+      "stepId": "1e9e776c-aabd-470c-8b89-9a6f2f861d28",
+      "deeplinkId": null,
+      "name": "Recipe 8",
+      "groupName": null,
+      "displayName": "component_view",
+      "type": "DFSGROUP",
+      "column": 7.22222,
+      "row": 15.6,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "94ae1614-5e03-4d4c-895a-c5bbbaf51659",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 100
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": true,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "d61d5d83-b985-489a-8d68-d01015b5ddf9",
+      "source": "043fef76-1448-460b-a397-9d3a62161fc5",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "c1b672ec-977e-4e55-9cbc-56f62336ee7d",
+      "source": "0d580952-f5c4-4a0f-9d65-5451f88d72f7",
+      "target": "b258d3c2-44e4-42e9-99fa-8a3ba192e185"
+    },
+    {
+      "id": "43058cb2-9138-461e-943d-a1af05d04125",
+      "source": "11bed2d6-db86-484c-b083-8ebc4497d46f",
+      "target": "7d7e4ea3-ff0e-4614-83e0-745201350914"
+    },
+    {
+      "id": "95ff4d91-bd8a-47b2-b524-198d7b4b684e",
+      "source": "11bed2d6-db86-484c-b083-8ebc4497d46f",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "2f3f133b-077a-4697-8aa2-cebc84d2d065",
+      "source": "128a8074-df1f-4eb3-9ede-62a30eb377da",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "bb55bbce-a205-471c-9517-82f05aef316e",
+      "source": "128a8074-df1f-4eb3-9ede-62a30eb377da",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "3836df0b-0a2c-4c5b-8ce3-f22884cb1dc8",
+      "source": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "3d6e17de-9d08-4b0e-8a9f-c11406398104",
+      "source": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "439adc21-aa6c-428a-bc86-04caa01501b2",
+      "source": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "target": "ea5314e0-0772-4acf-8f40-5943db529196"
+    },
+    {
+      "id": "9c454122-5d00-4b14-95c2-def7bcc76c5f",
+      "source": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "af4ee954-1953-4f10-8411-ec01470a507b",
+      "source": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc",
+      "target": "18ee667d-cef5-40b3-87df-7440c476d2f0"
+    },
+    {
+      "id": "e8f12622-9d54-4e53-98df-f978a2546670",
+      "source": "17059943-9e0c-47e3-977a-1e1af5169801",
+      "target": "a4979f51-1bed-4d93-ac88-eb92fc3d0f9f"
+    },
+    {
+      "id": "667ffa39-8ddf-4a51-8ef3-a1eaa7c36c42",
+      "source": "17af19b8-938e-4d1c-bd3f-4cb9929ab2df",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "e9fc8ffa-e5a3-4b34-9198-a0a329f0bc9e",
+      "source": "2433a6dd-da07-49c4-951d-ef4c569eca01",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "294cf795-d80d-47a6-8e7a-a5218184c2b3",
+      "source": "26008d5f-969a-4e51-a892-8d2362f8bc08",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "2da298a6-b439-4c73-a7f4-a2fac8bea246",
+      "source": "26008d5f-969a-4e51-a892-8d2362f8bc08",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "73994ca0-2524-4b6b-937d-b99c1ae089c7",
+      "source": "26008d5f-969a-4e51-a892-8d2362f8bc08",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "d5c7927d-8865-4187-8b69-ff819649d3ef",
+      "source": "26008d5f-969a-4e51-a892-8d2362f8bc08",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "010b0680-7787-4957-8aeb-879e11f95325",
+      "source": "2f454e09-785b-4ac0-a651-f68162dec22e",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "0fd2e578-fc61-406d-a468-3b7198b8bbbc",
+      "source": "2fc65f92-9bff-4e7b-bd23-8778373be1a4",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "f8931ffd-ea86-4c7b-bf81-78110fdcf40a",
+      "source": "2fc65f92-9bff-4e7b-bd23-8778373be1a4",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "3eb161c5-9b26-4c61-bfe2-d125a9d61b80",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "519d2790-6da4-4fc6-8540-a5ea80e05160",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "6e7d28e0-7bd2-4476-b8c2-6210d477df84",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "a3b3e853-865b-47d9-ae48-7ab61e655ea1",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "7d7e4ea3-ff0e-4614-83e0-745201350914"
+    },
+    {
+      "id": "a5e5a294-aef7-4a82-9033-fa467a673eba",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "b258d3c2-44e4-42e9-99fa-8a3ba192e185"
+    },
+    {
+      "id": "daafb691-5758-4047-99b4-ffddab284184",
+      "source": "34073824-3b19-4fa6-bb4d-f61acdc58ef2",
+      "target": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d"
+    },
+    {
+      "id": "846e35a0-1058-4c66-9d9a-7d1931aa9ad9",
+      "source": "36c47b83-7f86-4175-b396-a15b1e09f711",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "0e27d9d8-1a56-4454-9e81-2b2276a98e52",
+      "source": "4526fa4b-0d49-4f8a-9684-b70bbcd9a506",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "38ea1fe1-661c-4fff-993e-8ebef9b15bb7",
+      "source": "54e502c8-d546-4119-a972-bcf0caf3e97c",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "9c66ce5c-9365-4cec-ba03-4cdf6a81630c",
+      "source": "54e502c8-d546-4119-a972-bcf0caf3e97c",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "badb917e-0df9-4cbb-8e46-ce0a7287077e",
+      "source": "54e502c8-d546-4119-a972-bcf0caf3e97c",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "87a672ee-77a2-4ace-9382-d41483c90a3e",
+      "source": "58e3d003-842c-4014-a24c-c5c889b69706",
+      "target": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd"
+    },
+    {
+      "id": "59c59018-8002-4cf4-bbab-98f4ca65fdd7",
+      "source": "5e615063-3c79-43fd-a010-c4513ea277c5",
+      "target": "ea5314e0-0772-4acf-8f40-5943db529196"
+    },
+    {
+      "id": "779adf74-c31c-4fd0-9718-1ba695434bdb",
+      "source": "5e615063-3c79-43fd-a010-c4513ea277c5",
+      "target": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd"
+    },
+    {
+      "id": "c5145b37-112f-4968-a527-9f24083cbb17",
+      "source": "614bcd76-1118-4533-a091-626e972b0781",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "5463750a-cbef-449c-8beb-fbb3da237705",
+      "source": "671cbccd-e490-48c5-9272-bbce2dd3b9a7",
+      "target": "d15c45e4-199f-4abf-8951-746d4e19b31e"
+    },
+    {
+      "id": "5469e157-298a-4541-bb26-9442197265d8",
+      "source": "671cbccd-e490-48c5-9272-bbce2dd3b9a7",
+      "target": "4d608ca6-927b-4383-bc5a-bddacb04ee0d"
+    },
+    {
+      "id": "6d8428e4-5a99-4bd8-91b7-d58b61b6a3ec",
+      "source": "671cbccd-e490-48c5-9272-bbce2dd3b9a7",
+      "target": "d1d2f2b4-d5b5-4433-b50c-627bb196d282"
+    },
+    {
+      "id": "701e6877-6f32-4676-a772-51ba66812833",
+      "source": "69240b50-b7b7-4c53-97db-b02704294808",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "c04b01e0-aea9-45a9-91c2-10cc5cb9f65f",
+      "source": "69240b50-b7b7-4c53-97db-b02704294808",
+      "target": "7d7e4ea3-ff0e-4614-83e0-745201350914"
+    },
+    {
+      "id": "0d3ba4d4-5b85-4e20-ac05-7652702e6458",
+      "source": "6b53510f-a368-4278-9397-5ae03c81120d",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "2d9f6106-6dd8-4951-b3f3-f9248fd88560",
+      "source": "6b53510f-a368-4278-9397-5ae03c81120d",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "eb30ea55-8575-42c1-a926-69cf7747c3e1",
+      "source": "6b53510f-a368-4278-9397-5ae03c81120d",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "170faf95-01bc-422f-913c-cd08475639ab",
+      "source": "73590c75-2f0a-4ece-b67d-0cbe7375f79f",
+      "target": "0c1d3128-563a-48b9-86a5-7caf1c03c366"
+    },
+    {
+      "id": "4224c370-d467-40a8-99ab-1d15bd0afe73",
+      "source": "73590c75-2f0a-4ece-b67d-0cbe7375f79f",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "9b5459d4-889b-48ba-aa3f-73478af8ba4e",
+      "source": "73590c75-2f0a-4ece-b67d-0cbe7375f79f",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "b74990c7-8f3b-46fa-b586-df500ea085b3",
+      "source": "73590c75-2f0a-4ece-b67d-0cbe7375f79f",
+      "target": "252a8a8e-aa7f-4c85-baa9-f3b2f1ea8de4"
+    },
+    {
+      "id": "7a2caff0-0b60-4736-8fe1-dd4c7757c675",
+      "source": "7b21cb69-91bf-4fc5-9ea0-a998044929ce",
+      "target": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd"
+    },
+    {
+      "id": "85fe6718-17cd-4b1b-a737-0773dfe86caf",
+      "source": "7b21cb69-91bf-4fc5-9ea0-a998044929ce",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "cc08b3d6-8da2-4654-9731-e05560d55da1",
+      "source": "7b21cb69-91bf-4fc5-9ea0-a998044929ce",
+      "target": "0c1d3128-563a-48b9-86a5-7caf1c03c366"
+    },
+    {
+      "id": "12afd5d0-f7e7-421f-90f8-a5837a30d0e8",
+      "source": "847c5cd1-32a7-49f6-bd25-1c389ec75508",
+      "target": "18ee667d-cef5-40b3-87df-7440c476d2f0"
+    },
+    {
+      "id": "7eb753ab-b0b4-486c-bbba-0066f5c83d06",
+      "source": "847c5cd1-32a7-49f6-bd25-1c389ec75508",
+      "target": "0c1d3128-563a-48b9-86a5-7caf1c03c366"
+    },
+    {
+      "id": "002c2fba-17f7-4432-a993-106afb7196a7",
+      "source": "90d98321-fc28-4e33-b90f-64e5bacbca8b",
+      "target": "71cd4ca3-a4de-4910-88f4-8eaa3cf46f2d"
+    },
+    {
+      "id": "4c3cae4e-1998-4f37-b66a-1d4c86c7a599",
+      "source": "99c535a2-65e6-430f-b1b6-49fbfa818d3d",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "5d75e976-49a2-4fae-9b81-215edc479a96",
+      "source": "99c535a2-65e6-430f-b1b6-49fbfa818d3d",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "62beac2f-34bc-47fb-b167-4492fd2f4f3b",
+      "source": "99c535a2-65e6-430f-b1b6-49fbfa818d3d",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "6b6f1005-3555-4cbd-8d61-7e4b33eb2ce8",
+      "source": "99c535a2-65e6-430f-b1b6-49fbfa818d3d",
+      "target": "a2a5fd88-0734-45a6-a9ca-7dc672cc9c7a"
+    },
+    {
+      "id": "52a669c6-2ce8-4a44-a574-eab6bcdab44e",
+      "source": "a058fb7b-8ba1-455a-8146-3e973d2b5dad",
+      "target": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d"
+    },
+    {
+      "id": "68c403b5-be07-4e29-8769-357fea40ace1",
+      "source": "a4874edc-ae06-47ae-b1cb-1df61687d178",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "d87cf404-6d47-4290-b1b4-5e971e7c231a",
+      "source": "a4874edc-ae06-47ae-b1cb-1df61687d178",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "37e6425e-6ab7-4601-8e2f-909f24271bf4",
+      "source": "a95c9df9-bc49-4a49-8380-1a23b2f6bd61",
+      "target": "acc179da-13c7-4088-ab3e-862e58501315"
+    },
+    {
+      "id": "ece93557-9a7f-41f7-85fd-b6d0e9ee695a",
+      "source": "b19fe615-a726-4466-ae01-541e0ff885ec",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "312a50ca-9252-460f-9b0c-737d1adca8a7",
+      "source": "b2a230a2-e254-4cf9-8b4d-34148fc6773e",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "bd7f2e81-bbf9-4dd0-b675-81aa33071073",
+      "source": "b2a230a2-e254-4cf9-8b4d-34148fc6773e",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "1534919c-6601-4df5-9abd-761927ae85de",
+      "source": "b33fc65e-cbc6-4fac-83e9-1b1a588641ff",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "24670b21-f839-42b6-9699-5298cfa89ee7",
+      "source": "b78ee0ba-76d2-4c60-8ae3-87bdf11aca1f",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "ae548ea2-842c-4615-8300-b4b20635fc22",
+      "source": "b956fb7e-d995-4967-8571-535fcdbfed2c",
+      "target": "ea5314e0-0772-4acf-8f40-5943db529196"
+    },
+    {
+      "id": "cba3be23-739f-472d-ae60-59b8c5432032",
+      "source": "b956fb7e-d995-4967-8571-535fcdbfed2c",
+      "target": "d1d2f2b4-d5b5-4433-b50c-627bb196d282"
+    },
+    {
+      "id": "d6e6e32b-2d01-4598-aa70-271c5e816fca",
+      "source": "b956fb7e-d995-4967-8571-535fcdbfed2c",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "1b8dda6c-2301-4eaf-85ec-c7fe74a448a7",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "28234de5-2d92-4d3a-800a-207cbf29f8b1",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "18ee667d-cef5-40b3-87df-7440c476d2f0"
+    },
+    {
+      "id": "2a4ac445-4a63-43b8-9c72-7abad0edae39",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "58bb8106-d0a6-4263-b55d-ba46e004bcd2",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "8da14a75-44d6-4f05-8760-84ea540cb16f",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d"
+    },
+    {
+      "id": "ba9b8e61-974f-4250-ae33-29d0796c9c61",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "252a8a8e-aa7f-4c85-baa9-f3b2f1ea8de4"
+    },
+    {
+      "id": "fa38f441-4737-4b51-b967-94bb6cb6e39c",
+      "source": "c3101162-3844-4367-b38a-c2ed05d66b7a",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "29d077ab-9daa-4c86-86fc-826093d0b74a",
+      "source": "cc94db1a-d364-4e02-8dfc-b3034ce6dfec",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "268c8f17-38d7-44f7-9c9f-ca5c67cea993",
+      "source": "cdfe8daa-8ce3-40d9-bbad-0c4e6c7261d8",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "2875447f-5e78-499e-b8f7-38c3640d19e3",
+      "source": "cdfe8daa-8ce3-40d9-bbad-0c4e6c7261d8",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "e1e67c72-ed5c-42ae-b892-567c889ebf6a",
+      "source": "cdfe8daa-8ce3-40d9-bbad-0c4e6c7261d8",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "6c0bb9d8-3ab5-494b-8e52-56068410c5b3",
+      "source": "d1599749-1307-4340-afbe-8833a24865c9",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "b8569ba9-b06e-45ae-8a6a-e0256444653c",
+      "source": "d1599749-1307-4340-afbe-8833a24865c9",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "22480031-077c-45c0-a97d-b2c3285561fd",
+      "source": "d8e8044c-b8ec-4e25-a193-90ce47091234",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "44e65c6e-c23e-44d7-aa73-b436e547f309",
+      "source": "d8e8044c-b8ec-4e25-a193-90ce47091234",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "4f5da4e2-8fdd-402c-b3a0-80277b91bd53",
+      "source": "d8e8044c-b8ec-4e25-a193-90ce47091234",
+      "target": "0c1d3128-563a-48b9-86a5-7caf1c03c366"
+    },
+    {
+      "id": "b75ef94b-bc64-48b8-9338-b6c3cc4d96ae",
+      "source": "d8e8044c-b8ec-4e25-a193-90ce47091234",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "54dccd09-8601-4712-b5f0-f0fe8603df80",
+      "source": "daf28cc9-1386-42d5-9f5e-093fb0dae174",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "b10744c4-4d0b-4ba3-9ec2-2d210ab5259f",
+      "source": "daf28cc9-1386-42d5-9f5e-093fb0dae174",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "bf0acef4-c1fb-4fe8-8c4e-783031124413",
+      "source": "daf28cc9-1386-42d5-9f5e-093fb0dae174",
+      "target": "d1d2f2b4-d5b5-4433-b50c-627bb196d282"
+    },
+    {
+      "id": "c964ef67-1558-4696-8592-ef03d856841f",
+      "source": "daf28cc9-1386-42d5-9f5e-093fb0dae174",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "0d34d029-e829-4a32-83f3-6f36b91cf8e3",
+      "source": "db3e9459-8093-4f2a-bf5d-3170aed501a9",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "53f036c3-1154-4d14-8f9c-06577ae415bb",
+      "source": "db3e9459-8093-4f2a-bf5d-3170aed501a9",
+      "target": "cbc56703-118b-4183-8a40-d413e19fd7ea"
+    },
+    {
+      "id": "ff6eebbf-8f5f-4fd0-be10-088dbd2e9275",
+      "source": "db3e9459-8093-4f2a-bf5d-3170aed501a9",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "47fa1f59-a560-4bcc-a3ae-98c2263ae192",
+      "source": "dc46b9e5-5733-40b8-819d-5cc54979af34",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "4e411e29-e31e-4372-8767-875b0744c6df",
+      "source": "dc46b9e5-5733-40b8-819d-5cc54979af34",
+      "target": "ea67c17b-95e1-4c7b-974a-bcffb2889afd"
+    },
+    {
+      "id": "abe413ef-4f03-4b5b-afbd-1aae3dcbfb09",
+      "source": "dc46b9e5-5733-40b8-819d-5cc54979af34",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "4db82deb-1ae0-416c-81c6-39c0e717d0b1",
+      "source": "e3d17376-6716-42b4-8e05-53c873f644e4",
+      "target": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb"
+    },
+    {
+      "id": "c92dcaad-ba80-418c-8e84-7b049ff178f5",
+      "source": "e3d17376-6716-42b4-8e05-53c873f644e4",
+      "target": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46"
+    },
+    {
+      "id": "eb031c28-ed6e-4cc3-a063-fab48bb7bf55",
+      "source": "e3d17376-6716-42b4-8e05-53c873f644e4",
+      "target": "3cce584d-597c-4620-9ac0-eb211d478a28"
+    },
+    {
+      "id": "adcb774a-6c64-4151-81e9-5477a7af7ea6",
+      "source": "e580a40b-d15f-44f6-ac87-3120df18efd9",
+      "target": "b258d3c2-44e4-42e9-99fa-8a3ba192e185"
+    },
+    {
+      "id": "ecb5e551-6959-49e6-94f8-952e40de5031",
+      "source": "e580a40b-d15f-44f6-ac87-3120df18efd9",
+      "target": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d"
+    },
+    {
+      "id": "cf81ddca-e6df-4e6a-93ab-0ba6e789ed14",
+      "source": "faea0b6b-54ae-4f59-8015-a25adcd1810c",
+      "target": "acc179da-13c7-4088-ab3e-862e58501315"
+    },
+    {
+      "id": "589694cb-c9f9-4b2b-a483-2bbae58d3484",
+      "source": "0c1d3128-563a-48b9-86a5-7caf1c03c366",
+      "target": "25e14ca9-a030-4812-9098-d1090fa64681"
+    },
+    {
+      "id": "669d9e72-1c70-4af0-9931-e7eb3991ec17",
+      "source": "0c1d3128-563a-48b9-86a5-7caf1c03c366",
+      "target": "8f90e3ca-7978-4ced-9822-fd9b9fc0eac5"
+    },
+    {
+      "id": "141d6813-810d-42ec-98e0-6735f2a6125b",
+      "source": "0c1d3128-563a-48b9-86a5-7caf1c03c366",
+      "target": "ea01dacf-75dc-431d-9e4b-729dd90b4352"
+    },
+    {
+      "id": "c1f19c67-99f9-4ddb-89cc-c34d8435a6ea",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "14f5c6f7-86a7-4a36-9d48-7c3bd20ba7cc"
+    },
+    {
+      "id": "d08cdd00-6b47-4a52-bcca-2280a9113633",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "34073824-3b19-4fa6-bb4d-f61acdc58ef2"
+    },
+    {
+      "id": "8766bbab-a2d2-4569-9867-a47d909742f3",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "73590c75-2f0a-4ece-b67d-0cbe7375f79f"
+    },
+    {
+      "id": "958f292c-be8a-426e-bd1f-506baf8d4bc9",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "99c535a2-65e6-430f-b1b6-49fbfa818d3d"
+    },
+    {
+      "id": "0d74ab2d-7058-45b1-8e84-b2349c30b739",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "a4874edc-ae06-47ae-b1cb-1df61687d178"
+    },
+    {
+      "id": "7aef4baa-f03e-449b-ae42-852d99823b2c",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "c3101162-3844-4367-b38a-c2ed05d66b7a"
+    },
+    {
+      "id": "32b079d2-a219-41f6-b60a-12aa5bcda6e9",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "d1599749-1307-4340-afbe-8833a24865c9"
+    },
+    {
+      "id": "2c0d2c0f-3bf2-458a-b798-e4cd800eba52",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "d8e8044c-b8ec-4e25-a193-90ce47091234"
+    },
+    {
+      "id": "66149ba5-309d-445b-acb6-b072c3b8a95a",
+      "source": "0c98f414-5fe9-4561-ac5f-1daca6cd5e46",
+      "target": "daf28cc9-1386-42d5-9f5e-093fb0dae174"
+    },
+    {
+      "id": "5d10540a-951c-4e5d-b341-909d4b7360cf",
+      "source": "18ee667d-cef5-40b3-87df-7440c476d2f0",
+      "target": "90d98321-fc28-4e33-b90f-64e5bacbca8b"
+    },
+    {
+      "id": "8d904fd7-fb99-427d-b4ab-bda86cdd501d",
+      "source": "252a8a8e-aa7f-4c85-baa9-f3b2f1ea8de4",
+      "target": "737b27fb-43c2-4609-8c9b-526f57ec45d9"
+    },
+    {
+      "id": "42da226c-f110-4f94-939a-1218fe4947af",
+      "source": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd",
+      "target": "647ce9b5-4110-4df5-a0b7-b5d940eacffc"
+    },
+    {
+      "id": "e8c98458-eef1-49ae-84e6-5739b7cc6967",
+      "source": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd",
+      "target": "67611e9c-9db8-4f1c-a8fa-ade18afdc4e6"
+    },
+    {
+      "id": "854e688b-e99b-4433-bde5-e39d6affee8e",
+      "source": "39cb54fc-7da3-41e8-89ab-2c38089dc5cd",
+      "target": "9a2441d6-6a2c-4f1c-a97e-e46d41888414"
+    },
+    {
+      "id": "a5ef7a90-3886-4ac5-a067-f51330fbeb6f",
+      "source": "3cce584d-597c-4620-9ac0-eb211d478a28",
+      "target": "58e3d003-842c-4014-a24c-c5c889b69706"
+    },
+    {
+      "id": "34f3f51f-8a2d-472e-ae82-9cc21dcfe39c",
+      "source": "3cce584d-597c-4620-9ac0-eb211d478a28",
+      "target": "78031db2-ef8f-44bc-ab27-81617ffc334f"
+    },
+    {
+      "id": "ea8d038b-6f74-4fd7-83c1-d1eb7eaf14f2",
+      "source": "3cce584d-597c-4620-9ac0-eb211d478a28",
+      "target": "7b21cb69-91bf-4fc5-9ea0-a998044929ce"
+    },
+    {
+      "id": "c2ee9707-975a-4b27-af14-dd8aca94c80c",
+      "source": "3cce584d-597c-4620-9ac0-eb211d478a28",
+      "target": "bbaa8f25-fd7d-4105-ab54-bc061c8fd228"
+    },
+    {
+      "id": "a8745d90-fa84-46f6-92d2-477ed455878a",
+      "source": "4d608ca6-927b-4383-bc5a-bddacb04ee0d",
+      "target": "847c5cd1-32a7-49f6-bd25-1c389ec75508"
+    },
+    {
+      "id": "ec382635-3cac-4c7a-96f4-6af8323ad6b8",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "17af19b8-938e-4d1c-bd3f-4cb9929ab2df"
+    },
+    {
+      "id": "a78506a7-e2f4-449d-ba13-68d5e5d162bc",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "2c95e876-7c9c-482f-8482-0d84b4ac6963"
+    },
+    {
+      "id": "f6352b7c-0ad0-4349-9913-4e976f1ecfa8",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "493f2833-1b79-4843-b50d-65c766858626"
+    },
+    {
+      "id": "156ef5dd-6047-48f2-911a-cb2d8b13b86b",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "69240b50-b7b7-4c53-97db-b02704294808"
+    },
+    {
+      "id": "b9933e2a-c2ea-44e2-8e83-6c0646af4f5f",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "8440474f-793b-4018-8e72-be7cadae6232"
+    },
+    {
+      "id": "dc0d70db-ee4f-4364-bb71-9ddd9049fe70",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "a95c9df9-bc49-4a49-8380-1a23b2f6bd61"
+    },
+    {
+      "id": "55cf72c0-ef3e-4c0f-847c-9929118b716b",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "b2a230a2-e254-4cf9-8b4d-34148fc6773e"
+    },
+    {
+      "id": "45267e80-247a-4982-bba5-331ad3d6b468",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "cc94db1a-d364-4e02-8dfc-b3034ce6dfec"
+    },
+    {
+      "id": "d9673fdf-c845-4aea-973f-a8e58eb6bffc",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "dc46b9e5-5733-40b8-819d-5cc54979af34"
+    },
+    {
+      "id": "3bbd78ee-5b89-482b-ab71-8e72c9298442",
+      "source": "671f67e5-b6a4-4952-a7a7-2fab1f6cc38d",
+      "target": "faea0b6b-54ae-4f59-8015-a25adcd1810c"
+    },
+    {
+      "id": "29e247c7-cb31-45fd-829e-2533e66c41f5",
+      "source": "71cd4ca3-a4de-4910-88f4-8eaa3cf46f2d",
+      "target": "caed850c-accd-4cb9-95b0-86a6c7888937"
+    },
+    {
+      "id": "1f5db661-b86c-4717-950a-3dde759e151c",
+      "source": "7d7e4ea3-ff0e-4614-83e0-745201350914",
+      "target": "036cdb5a-a140-4c5f-87db-91b10d8fb25b"
+    },
+    {
+      "id": "2130ebca-f1ee-4436-8179-e7c7b84f3115",
+      "source": "7d7e4ea3-ff0e-4614-83e0-745201350914",
+      "target": "07471a99-f06b-4965-805b-c04e0e946cc5"
+    },
+    {
+      "id": "1428a8cf-2ecb-45bf-8cfb-e2c7dcaf058d",
+      "source": "7d7e4ea3-ff0e-4614-83e0-745201350914",
+      "target": "f15196c7-c918-434e-9bba-02699b2431d4"
+    },
+    {
+      "id": "5892f7ca-5089-4aba-8b78-487e3b74fd6a",
+      "source": "953bcb3b-b8c8-416b-91c6-3f562bd70a0f",
+      "target": "d6773c90-ea23-4a63-ad20-2004720c41d3"
+    },
+    {
+      "id": "26bc54ba-31ce-462d-8220-4985116da4ea",
+      "source": "9c066fdb-d1e4-4128-b512-4653ed614a40",
+      "target": "2954b746-be08-4c19-a377-e093e7a63f1e"
+    },
+    {
+      "id": "76b22e74-3396-4711-91a5-91f549572126",
+      "source": "a2a5fd88-0734-45a6-a9ca-7dc672cc9c7a",
+      "target": "5e615063-3c79-43fd-a010-c4513ea277c5"
+    },
+    {
+      "id": "5739b58d-7eda-493f-9e10-da02b3e99361",
+      "source": "a4979f51-1bed-4d93-ac88-eb92fc3d0f9f",
+      "target": "c0a69386-94e9-4e12-8cf9-3388f6dd3f50"
+    },
+    {
+      "id": "54d49d3d-7641-4e28-a732-9f224b74d47d",
+      "source": "acc179da-13c7-4088-ab3e-862e58501315",
+      "target": "7c88beb8-8d28-46ef-812f-ebe4b5ab4a70"
+    },
+    {
+      "id": "c73e403b-11e0-4dfb-8854-ac0268a9a064",
+      "source": "acc179da-13c7-4088-ab3e-862e58501315",
+      "target": "8d9975fb-0c3c-44ec-918d-4bb4404ca123"
+    },
+    {
+      "id": "de4825f7-3491-47ac-bcf5-5aa5e1a786c7",
+      "source": "acc179da-13c7-4088-ab3e-862e58501315",
+      "target": "9fea503f-47b3-4fb0-b5e8-2b5b8ed0bb33"
+    },
+    {
+      "id": "ca35ced9-5711-4d0c-a0e5-abf503cbbc65",
+      "source": "acc179da-13c7-4088-ab3e-862e58501315",
+      "target": "c4bf0cbb-620d-4bc4-a2ac-3d993dc8185e"
+    },
+    {
+      "id": "5413e2dc-4127-4c8b-8e41-e29d7728d70f",
+      "source": "acc179da-13c7-4088-ab3e-862e58501315",
+      "target": "e345b0ad-be39-4b9b-a004-25b401025b3d"
+    },
+    {
+      "id": "fd60ca99-7126-4d63-9f4d-1eb134d8b47f",
+      "source": "b258d3c2-44e4-42e9-99fa-8a3ba192e185",
+      "target": "11bed2d6-db86-484c-b083-8ebc4497d46f"
+    },
+    {
+      "id": "355dc06a-1316-4c11-9295-9c3d95f99d03",
+      "source": "b258d3c2-44e4-42e9-99fa-8a3ba192e185",
+      "target": "2f454e09-785b-4ac0-a651-f68162dec22e"
+    },
+    {
+      "id": "d57fbaea-826e-4fb7-85ed-339b3c1af47c",
+      "source": "b258d3c2-44e4-42e9-99fa-8a3ba192e185",
+      "target": "6fe5f6e0-95fc-4ef6-a573-7be51bccc1f2"
+    },
+    {
+      "id": "cc0d8032-01cf-46ea-8f8d-c4c328710dd1",
+      "source": "b355ab9c-e6a6-4287-87c9-1d3918b73d86",
+      "target": "d1002af6-f03f-4d57-b1fe-dbf4243503b8"
+    },
+    {
+      "id": "c7201551-19df-4bbb-8c4c-8de4747f7a32",
+      "source": "cb16195c-ecb8-44f9-9a8b-4ae6fc5d88eb",
+      "target": "671cbccd-e490-48c5-9272-bbce2dd3b9a7"
+    },
+    {
+      "id": "05046fc3-e999-42af-a692-2d637af1f9c8",
+      "source": "cbc56703-118b-4183-8a40-d413e19fd7ea",
+      "target": "3defa438-3d48-437e-804c-b879e463b0ce"
+    },
+    {
+      "id": "a9f47387-6c86-4f6e-8f93-5d3d30a0d110",
+      "source": "cbc56703-118b-4183-8a40-d413e19fd7ea",
+      "target": "b33fc65e-cbc6-4fac-83e9-1b1a588641ff"
+    },
+    {
+      "id": "26c2d521-b3ea-419e-9562-756e221ae20d",
+      "source": "d15c45e4-199f-4abf-8951-746d4e19b31e",
+      "target": "fc5d5fbe-9d49-44d7-a074-4e466c776617"
+    },
+    {
+      "id": "0bbbc003-516f-43b4-b7ad-85107d13a59b",
+      "source": "d1d2f2b4-d5b5-4433-b50c-627bb196d282",
+      "target": "d320295a-cecd-4178-9cd1-116ad9718443"
+    },
+    {
+      "id": "141e56a7-880c-4679-9785-c2d44cddd438",
+      "source": "ea5314e0-0772-4acf-8f40-5943db529196",
+      "target": "043fef76-1448-460b-a397-9d3a62161fc5"
+    },
+    {
+      "id": "e891bd86-f491-4d16-9fa8-62c407695f79",
+      "source": "ea5314e0-0772-4acf-8f40-5943db529196",
+      "target": "2433a6dd-da07-49c4-951d-ef4c569eca01"
+    },
+    {
+      "id": "f71ab1a9-57d8-46f7-a99e-32f75d418654",
+      "source": "ea67c17b-95e1-4c7b-974a-bcffb2889afd",
+      "target": "17059943-9e0c-47e3-977a-1e1af5169801"
+    },
+    {
+      "id": "1fe42206-9d67-48f7-99f4-498088e8d542",
+      "source": "ea67c17b-95e1-4c7b-974a-bcffb2889afd",
+      "target": "17c949a5-9168-4819-b77f-82340de9822c"
+    },
+    {
+      "id": "20be5401-4f58-4711-8b77-83e7c3f01dbc",
+      "source": "ea67c17b-95e1-4c7b-974a-bcffb2889afd",
+      "target": "6d0040e7-1ae9-431d-8770-9a29a667ca98"
+    }
+  ],
+  "synced_at": "2026-02-14T23:11:25.066749"
+}
