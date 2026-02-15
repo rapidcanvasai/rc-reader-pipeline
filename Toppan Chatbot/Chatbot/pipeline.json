@@ -1,0 +1,113 @@
+{
+  "workspace": "Toppan Chatbot",
+  "project": "Chatbot",
+  "scenario": "Unknown Scenario",
+  "project_id": "494b438c-5f20-4b34-a911-29851cbdb942",
+  "scenario_id": "0bcbc5b2-9ea1-456f-85fa-92b345048749",
+  "nodes": [
+    {
+      "id": "760d0567-2bb7-4e97-93b4-36176b95b554",
+      "stepId": "6e0f45f4-cbfc-4d39-9bc1-4f17e1387580",
+      "deeplinkId": null,
+      "name": "database",
+      "groupName": null,
+      "displayName": "database",
+      "type": "ARTIFACT",
+      "column": 0.0,
+      "row": 1.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "b86feb9e-73f7-4141-8b9c-956b9452cd70",
+      "stepId": "31fe1595-8d86-4631-993d-6628ec60bf5b",
+      "deeplinkId": null,
+      "name": "data",
+      "groupName": null,
+      "displayName": "data",
+      "type": "ARTIFACT",
+      "column": 0.0,
+      "row": 0.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "bef9fd21-ab2f-4060-8e08-e2055d04bda5",
+      "stepId": "a2f078b8-03b1-40d2-8844-63f80b8f2f15",
+      "deeplinkId": null,
+      "name": "outputDataset",
+      "groupName": null,
+      "displayName": "outputDataset",
+      "type": "ENTITY",
+      "column": 1.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "BUILT",
+      "results": [],
+      "recipeType": null,
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": false,
+      "newAskAIFlow": false,
+      "selected": false
+    },
+    {
+      "id": "567c1a08-775d-408c-9ac0-16c24549ad10",
+      "stepId": "fe3c4996-deab-4473-b86a-67f277db0151",
+      "deeplinkId": null,
+      "name": "Recipe 3",
+      "groupName": null,
+      "displayName": "Recipe 3",
+      "type": "DFSGROUP",
+      "column": 0.0,
+      "row": 2.0,
+      "viewData": null,
+      "status": "SUCCESS",
+      "results": [
+        {
+          "name": "bd024879-4954-496f-a863-56fe28a205cf",
+          "type": "TRANSFORM",
+          "status": "SUCCESS",
+          "msgList": [],
+          "transformRuntime": 0
+        }
+      ],
+      "recipeType": "API_CONNECTOR",
+      "recipeMetadata": {},
+      "entityDSDetails": null,
+      "image": null,
+      "icon": null,
+      "root": true,
+      "newAskAIFlow": true,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "684f07b9-a5c9-4d9b-a5df-6fc6d7273c51",
+      "source": "567c1a08-775d-408c-9ac0-16c24549ad10",
+      "target": "bef9fd21-ab2f-4060-8e08-e2055d04bda5"
+    }
+  ],
+  "synced_at": "2026-02-14T22:47:04.770563"
+}
