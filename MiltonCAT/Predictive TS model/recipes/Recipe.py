@@ -107,8 +107,8 @@ results_df = Helpers.getEntityData(context, 'df_results_count_sales')
 inv_raw = Helpers.getEntityData(context, 'Inventory')
 
 # FILTRAR APENAS O ENSEMBLE
-future_df = future_df[future_df['Model'] == 'ensemble']
-results_df = results_df[results_df['Model'] == 'ensemble']
+#future_df = future_df[future_df['Model'] == 'ensemble']
+#results_df = results_df[results_df['Model'] == 'ensemble']
 
 print(f"Carregados {len(future_df):,} registros de demanda futura")
 print(f"Carregados {len(results_df):,} registros de resultados históricos")

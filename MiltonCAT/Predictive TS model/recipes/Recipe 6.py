@@ -7,6 +7,10 @@ import os
 
 context = Helpers.getOrCreateContext(contextId='contextId', localVars=locals())
 
+print(f"Context : {context}")
+token = Helpers.get_user_token(context)
+print(f"Token: {token}")
+
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Download artifacts from both folders
 try:

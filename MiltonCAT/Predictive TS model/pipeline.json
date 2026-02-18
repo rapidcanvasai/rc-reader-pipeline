@@ -126,7 +126,7 @@
     {
       "id": "2b9eba3f-40df-4f1b-97dd-a644a2726511",
       "stepId": "310812ff-36d2-48fb-bf4e-6df693238c86",
-      "deeplinkId": "20861d7e-1b59-46f5-8347-f45015945d35",
+      "deeplinkId": "cca85a38-d050-45d8-b39e-1362223ff357",
       "name": "forecast-data-api",
       "groupName": null,
       "displayName": "forecast-data-api",
@@ -174,7 +174,7 @@
     {
       "id": "508be512-e1d7-4d3b-8c0e-fafb9de782a4",
       "stepId": "a87270ac-5cec-4283-9505-6d18ec398bf9",
-      "deeplinkId": "b615cb12-f5e0-4dff-adac-92046e8b8f6c",
+      "deeplinkId": "a13cc3bb-738e-4119-8d4c-fc19b6a5769b",
       "name": "inventory-analysis-api",
       "groupName": null,
       "displayName": "inventory-analysis-api",
@@ -252,7 +252,7 @@
       "column": 6.55556,
       "row": 8.4,
       "viewData": null,
-      "status": "EMPTY",
+      "status": "BUILT",
       "results": [],
       "recipeType": null,
       "recipeMetadata": {},
@@ -657,7 +657,7 @@
           "type": "TRANSFORM",
           "status": "SUCCESS",
           "msgList": [],
-          "transformRuntime": 200
+          "transformRuntime": 0
         }
       ],
       "recipeType": "API_CONNECTOR",
@@ -717,7 +717,7 @@
           "type": "TRANSFORM",
           "status": "SUCCESS",
           "msgList": [],
-          "transformRuntime": 100
+          "transformRuntime": 0
         }
       ],
       "recipeType": "API_CONNECTOR",
@@ -830,30 +830,13 @@
       "column": 5.55556,
       "row": 8.4,
       "viewData": null,
-      "status": "ERROR",
+      "status": "SUCCESS",
       "results": [
         {
           "name": "10d140a5-be93-431f-8ba8-d12938fd48ac",
           "type": "TRANSFORM",
-          "status": "FAILURE",
-          "msgList": [
-            {
-              "level": "ERROR",
-              "msg": "Neither `start` nor `end` can be NaT\nTraceback (most recent call last):\n  File \"/tmp/tmpz7jzt89u.py\", line 247, in <module>\n    gkzXXVKP(internalContext)\n  File \"/tmp/tmpz7jzt89u.py\", line 147, in gkzXXVKP\n    months_all = pd.date_range(future_use['Sell_Date'].min(), future_use['Sell_Date'].max(), freq='MS')\n  File \"/opt/conda/envs/custom_py310/lib/python3.10/site-packages/pandas/core/indexes/datetimes.py\", line 1087, in date_range\n    dtarr = DatetimeArray._generate_range(\n  File \"/opt/conda/envs/custom_py310/lib/python3.10/site-packages/pandas/core/arrays/datetimes.py\", line 418, in _generate_range\n    raise ValueError(\"Neither `start` nor `end` can be NaT\")\nValueError: Neither `start` nor `end` can be NaT"
-            }
-          ],
-          "transformRuntime": 0
-        },
-        {
-          "name": "Recipe",
-          "type": "RECIPE",
-          "status": "FAILURE",
-          "msgList": [
-            {
-              "level": "ERROR",
-              "msg": "Error while running recipe 'Recipe'. Please check recipe run logs for more details."
-            }
-          ],
+          "status": "SUCCESS",
+          "msgList": [],
           "transformRuntime": 0
         }
       ],
@@ -1194,5 +1177,5 @@
       "target": "221d779b-5e7a-494d-a491-be5e5a4e67af"
     }
   ],
-  "synced_at": "2026-02-14T23:07:09.617414"
+  "synced_at": "2026-02-18T11:53:45.611037"
 }

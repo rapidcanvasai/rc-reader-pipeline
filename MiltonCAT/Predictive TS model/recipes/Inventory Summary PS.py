@@ -117,7 +117,24 @@ class InventoryAnalysisModel(RCMLModel):
     
     def predict(self, model_input, context):
         """Processes the inventory analysis operation."""
-        token = Helpers.get_user_token(context)
+        # token = Helpers.get_user_token(context)
+
+        import requests
+        pipa_api_key = 'rc-1bbbe5e9-c50d-469f-920b-dcfa4a86fd06'
+        base_url = Requests.getRootHost()
+        url = f"{base_url}access_key/token"
+        headers = {
+                "X-API-KEY": pipa_api_key,
+                "accept": "application/json",
+        }
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+
+        data = response.json()
+        token = data.get("token")
+
+        print(f"Token: {token}")
+
         Requests.setToken(token)
         
         if "op" not in model_input:

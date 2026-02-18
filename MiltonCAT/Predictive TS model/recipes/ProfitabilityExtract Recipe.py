@@ -16,6 +16,10 @@ from datetime import datetime  # Import datetime for dynamic file naming
 
 context = Helpers.getOrCreateContext(contextId='contextId', localVars=locals())
 
+print(f"Context : {context}")
+token = Helpers.get_user_token(context)
+print(f"Token: {token}")
+
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Your code goes here
 output_df_1 = Helpers.getEntityData(context, 'ProfitabilityExtract')
